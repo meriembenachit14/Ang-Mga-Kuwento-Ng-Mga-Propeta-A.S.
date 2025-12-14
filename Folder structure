@@ -1,32 +1,40 @@
-my-prophets-website/        <-- Root folder (pangalan mo ng project)
+/project-root
 │
-├── index.html               <-- Homepage (listahan ng lahat ng kabanata)
-├── style.css                <-- Global CSS file
-├── script.js                <-- JavaScript file (dark/light mode)
+├─ index.html               ← Main index linking sa lahat ng pages
+├─ style.css                ← Global CSS para sa lahat ng pages
+├─ script.js                ← Global JS (dark/light mode toggle)
 │
-└── pages/                   <-- Folder para sa lahat ng kabanata
-    ├── kabanata1.html       <-- Propeta Adam
-    ├── kabanata2.html       <-- Propeta Idris
-    ├── kabanata3.html       <-- Propeta Nuh
-    ├── kabanata4.html       <-- Propeta Hud
-    ├── kabanata5.html       <-- Propeta Salih
-    ├── kabanata6.html       <-- Propeta Ibrahim
-    ├── kabanata7.html       <-- Propeta Lut
-    ├── kabanata8.html       <-- Propeta Ismail
-    ├── kabanata9.html       <-- Propeta Ishaq
-    ├── kabanata10.html      <-- Propeta Yaqub
-    ├── kabanata11.html      <-- Propeta Yusuf
-    ├── kabanata12.html      <-- Propeta Shu’ayb
-    ├── kabanata13.html      <-- Propeta Ayyub
-    ├── kabanata14.html      <-- Propeta Dhul-Kifl
-    ├── kabanata15.html      <-- Propeta Musa
-    ├── kabanata16.html      <-- Propeta Harun
-    ├── kabanata17.html      <-- Propeta Dawud
-    ├── kabanata18.html      <-- Propeta Sulaiman
-    ├── kabanata19.html      <-- Propeta Ilyas
-    ├── kabanata20.html      <-- Propeta Al-Yasa
-    ├── kabanata21.html      <-- Propeta Yunus
-    ├── kabanata22.html      <-- Propeta Zakariya
-    ├── kabanata23.html      <-- Propeta Yahya
-    ├── kabanata24.html      <-- Propeta Isa
-    └── kabanata25.html      <-- Propeta Muhammad ﷺ
+├─ pages
+│  ├─ part1                 ← Part 1: Panimula sa Islam
+│  │  ├─ page1.html         ← Ano ang Islam?
+│  │  ├─ page2.html         ← Pananampalataya sa iisang Diyos (Tawheed)
+│  │  ├─ page3.html         ← Ang Papel ng mga Propeta
+│  │  ├─ page4.html         ← Limang Haligi ng Islam
+│  │  ├─ page5.html         ← Layunin ng Islam
+│  │  └─ page6.html         ← Ang Qur’an – Salita ng Diyos
+│  │
+│  ├─ kabanata1.html         ← Propeta Adam (A.S.)
+│  ├─ kabanata2.html         ← Propeta Idris (A.S.)
+│  ├─ kabanata3.html         ← Propeta Nuh (A.S.)
+│  ├─ kabanata4.html         ← Propeta Hud (A.S.)
+│  ├─ kabanata5.html         ← Propeta Salih (A.S.)
+│  ├─ kabanata6.html         ← Propeta Ibrahim (A.S.)
+│  ├─ kabanata7.html         ← Propeta Lut (A.S.)
+│  ├─ kabanata8.html         ← Propeta Ismail (A.S.)
+│  ├─ kabanata9.html         ← Propeta Ishaq (A.S.)
+│  ├─ kabanata10.html        ← Propeta Yaqub (A.S.)
+│  ├─ kabanata11.html        ← Propeta Yusuf (A.S.)
+│  ├─ kabanata12.html        ← Propeta Shu’ayb (A.S.)
+│  ├─ kabanata13.html        ← Propeta Ayyub (A.S.)
+│  ├─ kabanata14.html        ← Propeta Dhul-Kifl (A.S.)
+│  ├─ kabanata15.html        ← Propeta Musa (A.S.)
+│  ├─ kabanata16.html        ← Propeta Harun (A.S.)
+│  ├─ kabanata17.html        ← Propeta Dawud (A.S.)
+│  ├─ kabanata18.html        ← Propeta Sulaiman (A.S.)
+│  ├─ kabanata19.html        ← Propeta Ilyas (A.S.)
+│  ├─ kabanata20.html        ← Propeta Al-Yasa (A.S.)
+│  ├─ kabanata21.html        ← Propeta Yunus (A.S.)
+│  ├─ kabanata22.html        ← Propeta Zakariya (A.S.)
+│  ├─ kabanata23.html        ← Propeta Yahya (A.S.)
+│  ├─ kabanata24.html        ← Propeta Isa (A.S.)
+│  └─ kabanata25.html        ← Propeta Muhammad ﷺ
