@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kabanata 14 – Propeta Dhul-Kifl (A.S.)</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <h1>Kabanata 14 – Propeta Dhul-Kifl (A.S.)</h1>
+    <a href="../index.html">Balik sa Home</a>
+    <button id="toggle-theme">Dark/Light Mode</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>🌱 Sino si Propeta Dhul-Kifl (A.S.)</h2>
+      <p>Si Propeta Dhul-Kifl (A.S.) ay isa sa mga bihirang nabanggit sa Qur’an, kilala sa kanyang pagtitiis, kabanalan, at katapatan sa Allah.</p>
+    </section>
+
+    <section>
+      <h2>👨‍👩‍👧 Kapanganakan at Buhay</h2>
+      <p>Hindi tiyak ang taon ng kanyang kapanganakan, ngunit ipinapakita siya bilang isang tagapamagitan ng katarungan at tagapagturo ng kabanalan.</p>
+    </section>
+
+    <section>
+      <h2>✨ Mensahe at Kabutihan</h2>
+      <ul>
+        <li>Pinamunuan ang kanyang bayan nang may katapatan at katarungan.</li>
+        <li>Itinuro ang monoteismo at pag-iwas sa kasamaan.</li>
+        <li>Pinanatili ang pagtitiis sa kabila ng hamon at pagsubok.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📜 Mahahalagang Aral</h2>
+      <ul>
+        <li>❖ Katatagan sa pananampalataya</li>
+        <li>❖ Katarungan sa pamumuno</li>
+        <li>❖ Kabutihan sa kapwa at lipunan</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📖 Sanggunian sa Qur’an</h2>
+      <ul>
+        <li>Surah Al-Anbiya (21:85–86)</li>
+        <li>Surah Sad (38:48)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mga Kuwento ng mga Propeta (A.S.)</p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
