@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kabanata 11 – Propeta Yusuf (A.S.)</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <h1>Kabanata 11 – Propeta Yusuf (A.S.)</h1>
+    <a href="../index.html">Balik sa Home</a>
+    <button id="toggle-theme">Dark/Light Mode</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>🌱 Sino si Propeta Yusuf (A.S.)</h2>
+      <p>Si Propeta Yusuf (A.S.) ay anak ni Yaqub (A.S.). Kilala siya sa kanyang kagandahang-asal, katapatan sa Allah, at ang kanyang pambihirang interpretasyon ng panaginip.</p>
+    </section>
+
+    <section>
+      <h2>👨‍👩‍👧 Magulang at Kapanganakan</h2>
+      <p>Anak ni Yaqub (A.S.) at Rahel, ipinanganak sa Canaan. Siya ang pinakapaboritong anak ni Yaqub (A.S.).</p>
+    </section>
+
+    <section>
+      <h2>✨ Buhay at Pagsubok</h2>
+      <ul>
+        <li>Ibinalik siya sa balon ng kanyang mga kapatid at ibinenta sa Ehipto.</li>
+        <li>Naging alipin at kalaunan ay pinakilala bilang tagapamahala sa kayamanan ng Ehipto.</li>
+        <li>Pinatunayan ang kanyang kabanalan sa panliligaw ng asawa ng kanyang amo at sa pagtatagumpay sa interpretasyon ng panaginip.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📜 Mahahalagang Aral</h2>
+      <ul>
+        <li>❖ Katapatan sa Allah sa gitna ng pagsubok</li>
+        <li>❖ Kapatawaran sa mga nagkasala sa iyo</li>
+        <li>❖ Paggamit ng talino at talento sa kabutihan</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📖 Sanggunian sa Qur’an</h2>
+      <ul>
+        <li>Surah Yusuf (12:4–101)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mga Kuwento ng mga Propeta (A.S.)</p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
