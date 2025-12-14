@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kabanata 10 – Propeta Yaqub (A.S.)</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <h1>Kabanata 10 – Propeta Yaqub (A.S.)</h1>
+    <a href="../index.html">Balik sa Home</a>
+    <button id="toggle-theme">Dark/Light Mode</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>🌱 Sino si Propeta Yaqub (A.S.)</h2>
+      <p>Si Propeta Yaqub (A.S.) ay kilala rin bilang Israel. Anak siya ni Ishaq (A.S.) at apo ni Ibrahim (A.S.). Isa siya sa mga tagapagturo ng monoteismo at kilala sa kanyang kabanalan at pagmamahal sa pamilya.</p>
+    </section>
+
+    <section>
+      <h2>👨‍👩‍👧 Magulang at Kapanganakan</h2>
+      <p>Anak ni Ishaq (A.S.) at Rebecca, ipinanganak sa Mesopotamia. May labindalawang anak na kilala bilang mga tribo ng Israel.</p>
+    </section>
+
+    <section>
+      <h2>✨ Paglilingkod sa Allah</h2>
+      <ul>
+        <li>Pinatibay ang pananampalataya sa Allah at itinuro sa kanyang pamilya.</li>
+        <li>Pinamahalaan ang kanyang pamilya nang matuwid at may kabanalan.</li>
+        <li>Naging ehemplo ng pagtitiis sa panahon ng pagsubok.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📜 Mahahalagang Aral</h2>
+      <ul>
+        <li>❖ Pagpapahalaga sa pamilya</li>
+        <li>❖ Katatagan sa pananampalataya sa kabila ng pagsubok</li>
+        <li>❖ Pagpaparami ng kabutihan sa lipunan</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📖 Sanggunian sa Qur’an</h2>
+      <ul>
+        <li>Surah Yusuf (12:4–101)</li>
+        <li>Surah Al-Baqarah (2:132–133)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mga Kuwento ng mga Propeta (A.S.)</p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
