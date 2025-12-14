@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kabanata 6 – Propeta Ibrahim (A.S.)</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <h1>Kabanata 6 – Propeta Ibrahim (A.S.)</h1>
+    <a href="../index.html">Balik sa Home</a>
+    <button id="toggle-theme">Dark/Light Mode</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>🌱 Sino si Propeta Ibrahim (A.S.)</h2>
+      <p>Si Propeta Ibrahim (A.S.) ay kilala bilang Aming Propeta ng Monoteismo at tinatawag na “Khalilullah” (Kaibigan ng Allah). Siya ang ama ng maraming propeta at tinuruan ang sangkatauhan ng pagsamba sa iisang Allah.</p>
+    </section>
+
+    <section>
+      <h2>👨‍👩‍👧 Magulang at Kapanganakan</h2>
+      <p>Ipinanganak siya kay Azar (ngunit hindi sumasamba sa Allah), sa Ur ng Mesopotamia, humigit-kumulang 1996 BCE (tinatayang panahon).</p>
+    </section>
+
+    <section>
+      <h2>✨ Paglilingkod sa Allah</h2>
+      <ul>
+        <li>Itinakwil ang pagsamba sa diyus-diyosan at itinuro ang monoteismo.</li>
+        <li>Pinayuhan ang kanyang mga tao na sundin ang batas ng Allah at iwasan ang kasamaan.</li>
+        <li>Itinayo ang Kaaba kasama si Ismail (A.S.) sa Makkah bilang sentro ng pagsamba sa Allah.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🔥 Pagsubok at Katatagan</h2>
+      <ul>
+        <li>Itinapon sa apoy ng kanyang bayan, ngunit pinrotektahan ng Allah.</li>
+        <li>Inutusan na ialay ang kanyang anak na si Ismail (A.S.) bilang pagsubok sa kanyang pananampalataya, ngunit pinalitan siya ng tupa.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📜 Mahahalagang Aral</h2>
+      <ul>
+        <li>❖ Katatagan sa pananampalataya</li>
+        <li>❖ Pagsunod sa Allah sa kabila ng pagsubok</li>
+        <li>❖ Pagtuturo sa sangkatauhan ng monoteismo</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📖 Sanggunian sa Qur’an</h2>
+      <ul>
+        <li>Surah Al-Baqarah (2:124–141)</li>
+        <li>Surah Ibrahim (14:35–41)</li>
+        <li>Surah As-Saffat (37:83–113)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mga Kuwento ng mga Propeta (A.S.)</p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
