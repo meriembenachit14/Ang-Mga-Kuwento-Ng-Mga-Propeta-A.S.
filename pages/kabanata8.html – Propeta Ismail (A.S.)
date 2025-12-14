@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kabanata 8 – Propeta Ismail (A.S.)</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <h1>Kabanata 8 – Propeta Ismail (A.S.)</h1>
+    <a href="../index.html">Balik sa Home</a>
+    <button id="toggle-theme">Dark/Light Mode</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>🌱 Sino si Propeta Ismail (A.S.)</h2>
+      <p>Si Propeta Ismail (A.S.) ay anak ni Ibrahim (A.S.) at Hajar. Kilala sa kanyang katapatan at pagiging matuwid. Siya rin ang itinuturing na ninuno ng mga Arabo.</p>
+    </section>
+
+    <section>
+      <h2>👨‍👩‍👧 Magulang at Kapanganakan</h2>
+      <p>Ipinanganak sa Mecca sa Arabia. Anak ni Ibrahim (A.S.) at Hajar. Siya ay pinili ng Allah upang tulungan ang kanyang ama sa pagtatayo ng Kaaba.</p>
+    </section>
+
+    <section>
+      <h2>✨ Paglilingkod sa Allah</h2>
+      <ul>
+        <li>Tumulong sa kanyang ama sa pagtatayo ng Kaaba.</li>
+        <li>Kilala sa kanyang kabutihan at pagsunod sa Allah sa kabila ng kahirapan sa disyerto.</li>
+        <li>Pinatunayan ang kanyang katapatan sa pamamagitan ng pagsunod sa utos ng Allah sa pagsubok ng pag-aalay.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📜 Mahahalagang Aral</h2>
+      <ul>
+        <li>❖ Katapatan sa Allah at magulang</li>
+        <li>❖ Pagkakaroon ng determinasyon sa kabila ng pagsubok</li>
+        <li>❖ Paglilingkod sa sangkatauhan bilang bahagi ng pagsunod sa Allah</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📖 Sanggunian sa Qur’an</h2>
+      <ul>
+        <li>Surah Al-Baqarah (2:125–129)</li>
+        <li>Surah Maryam (19:54–55)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mga Kuwento ng mga Propeta (A.S.)</p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
