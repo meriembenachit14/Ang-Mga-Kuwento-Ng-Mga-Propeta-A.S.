@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kabanata 17 – Propeta Dawud (A.S.)</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <h1>Kabanata 17 – Propeta Dawud (A.S.)</h1>
+    <a href="../index.html">Balik sa Home</a>
+    <button id="toggle-theme">Dark/Light Mode</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>🌱 Sino si Propeta Dawud (A.S.)</h2>
+      <p>Si Propeta Dawud (A.S.) ay kilala bilang hari at propeta ng mga Bani Israel, kilala sa kanyang kabutihan, katarungan, at pagiging tagapagtanggol ng mga mahihirap.</p>
+    </section>
+
+    <section>
+      <h2>👨‍👩‍👧 Kapanganakan at Buhay</h2>
+      <p>Ipinanganak sa Bethlehem sa lahi ni Isai. Siya ay pinili bilang hari matapos patunayan ang kanyang tapang at katapatan sa Allah, lalo na sa laban kay Goliath.</p>
+    </section>
+
+    <section>
+      <h2>✨ Mga Himala at Mensahe</h2>
+      <ul>
+        <li>Pinangunahan ang kanyang bayan sa katarungan at pananalig sa Allah.</li>
+        <li>Nakatanggap ng Zabur (Psalms) mula sa Allah.</li>
+        <li>Pinayaman ang kultura at espiritwalidad ng kanyang bayan.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📜 Mahahalagang Aral</h2>
+      <ul>
+        <li>❖ Katarungan bilang batayan ng pamumuno</li>
+        <li>❖ Pagpapakumbaba at pagtitiwala sa Allah</li>
+        <li>❖ Paglilingkod sa lipunan at kapwa</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📖 Sanggunian sa Qur’an</h2>
+      <ul>
+        <li>Surah Sad (38:17–26)</li>
+        <li>Surah Al-Anbiya (21:78–82)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mga Kuwento ng mga Propeta (A.S.)</p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
