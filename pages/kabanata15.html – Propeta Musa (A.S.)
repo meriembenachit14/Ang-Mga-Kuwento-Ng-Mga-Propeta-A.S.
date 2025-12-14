@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kabanata 15 – Propeta Musa (A.S.)</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <h1>Kabanata 15 – Propeta Musa (A.S.)</h1>
+    <a href="../index.html">Balik sa Home</a>
+    <button id="toggle-theme">Dark/Light Mode</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>🌱 Sino si Propeta Musa (A.S.)</h2>
+      <p>Si Propeta Musa (A.S.) ay isa sa pinakamahalagang propeta sa Islam, kilala sa kanyang paghahatid ng mensahe ng Allah sa mga Bani Israel at sa kanyang tapang sa harap ng Pharaoh.</p>
+    </section>
+
+    <section>
+      <h2>👨‍👩‍👧 Magulang at Kapanganakan</h2>
+      <p>Anak ni Imran at Yokhebed, ipinanganak sa Egypt sa panahon ng pang-aapi ng mga Bani Israel. Tinago siya sa basket sa Nile upang iligtas mula sa utos ng Pharaoh na patayin ang mga sanggol na lalaki.</p>
+    </section>
+
+    <section>
+      <h2>✨ Paglilingkod at Pagsubok</h2>
+      <ul>
+        <li>Pinili ng Allah bilang propeta upang iligtas ang Bani Israel mula sa pagkaalipin sa Egypt.</li>
+        <li>Pinangunahan ang Exodus, kasama ang mga kamangha-manghang tanda tulad ng paghiwalay ng dagat.</li>
+        <li>Tinanggap ang Tawrat bilang gabay sa kanyang bayan.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📜 Mahahalagang Aral</h2>
+      <ul>
+        <li>❖ Katapangan sa pagtupad ng tungkulin sa Allah</li>
+        <li>❖ Pananampalataya sa gitna ng pagsubok</li>
+        <li>❖ Pagpapakumbaba at pakikipagkapwa-tao</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📖 Sanggunian sa Qur’an</h2>
+      <ul>
+        <li>Surah Al-Qasas (28:3–46)</li>
+        <li>Surah Taha (20:9–99)</li>
+        <li>Surah Al-A’raf (7:103–160)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mga Kuwento ng mga Propeta (A.S.)</p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
