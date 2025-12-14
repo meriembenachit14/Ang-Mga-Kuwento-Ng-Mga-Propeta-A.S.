@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kabanata 9 – Propeta Ishaq (A.S.)</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <h1>Kabanata 9 – Propeta Ishaq (A.S.)</h1>
+    <a href="../index.html">Balik sa Home</a>
+    <button id="toggle-theme">Dark/Light Mode</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>🌱 Sino si Propeta Ishaq (A.S.)</h2>
+      <p>Si Propeta Ishaq (A.S.) ay anak ni Ibrahim (A.S.) at Sara. Kilala siya sa kanyang kabanalan at bilang isa sa mga tagapagturo ng monoteismo sa sangkatauhan.</p>
+    </section>
+
+    <section>
+      <h2>👨‍👩‍👧 Magulang at Kapanganakan</h2>
+      <p>Ipinanganak siya sa Ur ng Mesopotamia sa matanda nang edad ng kanyang mga magulang. Anak ni Ibrahim (A.S.) at Sara.</p>
+    </section>
+
+    <section>
+      <h2>✨ Paglilingkod sa Allah</h2>
+      <ul>
+        <li>Nagpatuloy sa mensahe ng kanyang ama na si Ibrahim (A.S.) sa monoteismo.</li>
+        <li>Kilala sa kanyang kabutihan, pananampalataya, at pagiging matuwid.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📜 Mahahalagang Aral</h2>
+      <ul>
+        <li>❖ Pagtutuloy ng mensahe ng nakaraang propeta</li>
+        <li>❖ Katapatan at kabanalan sa pamilya at lipunan</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📖 Sanggunian sa Qur’an</h2>
+      <ul>
+        <li>Surah Al-Baqarah (2:133–136)</li>
+        <li>Surah As-Saffat (37:112–113)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mga Kuwento ng mga Propeta (A.S.)</p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
