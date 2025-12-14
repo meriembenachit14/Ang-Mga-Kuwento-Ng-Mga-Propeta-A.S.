@@ -1,34 +1,69 @@
 <!DOCTYPE html>
 <html lang="tl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kabanata 3 – Propeta Nuh (A.S.)</title>
-<link rel="stylesheet" href="../style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kabanata 3 – Propeta Nuh (A.S.)</title>
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-<header>
-  <h1>Kabanata 3 – Propeta Nuh (A.S.)</h1>
-  <a href="../index.html">⬅ Balik sa Home</a>
-</header>
+  <header>
+    <h1>Kabanata 3 – Propeta Nuh (A.S.)</h1>
+    <a href="../index.html">Balik sa Home</a>
+    <button id="toggle-theme">Dark/Light Mode</button>
+  </header>
 
-<main>
-<h2>Pagkakakilanlan</h2>
-<p><strong>Pangalan:</strong> Nuh (A.S.)</p>
-<p><strong>Pinagmulan:</strong> Mesopotamia</p>
-<p><strong>Panahon:</strong> Humigit-kumulang 950 taon bago si Ibrahim (A.S.)</p>
-<p><strong>Pamilya:</strong> May asawa at ilang anak, kabilang si Yam (propesyonal na tagapagmana ng aral)</p>
+  <main>
+    <section>
+      <h2>🌱 Sino si Propeta Nuh (A.S.)</h2>
+      <p>Si Propeta Nuh (A.S.) ay kilala bilang tagapagtanggol ng katotohanan at tagapagturo sa panahon ng malaking kasamaan sa mundo. Siya ay itinalaga ng Allah upang gabayan ang kanyang mga tao sa landas ng katuwiran.</p>
+    </section>
 
-<h2>Kuwento at Mahahalagang Kaganapan</h2>
-<p>Si Propeta Nuh (A.S.) ay ipinadala ng Allah upang gabayan ang kanyang bayan na lumayo sa kasamaan at sumamba lamang sa Diyos. Nang hindi sila sumunod, iniutos ng Allah na gumawa si Nuh ng malaking arka. Siya at ang kanyang mga tagasunod ay nailigtas mula sa malaking baha na pumuksa sa mga nagkasala.</p>
+    <section>
+      <h2>👨‍👩‍👧 Magulang at Kapanganakan</h2>
+      <p>Ipinanganak si Nuh (A.S.) sa isang henerasyon na marami ang sumasamba sa diyus-diyosan. Anak siya ni Lamik at kababayan ng Mesopotamia. Walang eksaktong petsa ng kapanganakan, ngunit siya ay kabilang sa mga henerasyon matapos si Idris (A.S.).</p>
+    </section>
 
-<h2>Mga Salita at Aral</h2>
-<p>“Ang pananampalataya at pagtitiwala sa Allah ay susi sa kaligtasan.”</p>
-<p>Aral: Kahit gaano kalaki ang pagsubok, ang pagsunod sa Allah ay nagdadala ng kapatawaran at proteksyon.</p>
+    <section>
+      <h2>✨ Paglilingkod sa Allah</h2>
+      <ul>
+        <li>Nagturo ng monoteismo sa loob ng 950 taon (Qur’an, Surah Al-Ankabut 29:14).</li>
+        <li>Pinayuhan ang kanyang mga tao na iwan ang kasamaan at sumamba sa iisang Allah.</li>
+        <li>Maraming tumanggi, kaya dumating ang malaking baha bilang parusa mula sa Allah.</li>
+      </ul>
+    </section>
 
-</main>
-<footer>
-  <p>&copy; 2025 Mga Kuwento ng mga Propeta (A.S.)</p>
-</footer>
+    <section>
+      <h2>🛶 Ang Baha at Arka</h2>
+      <ul>
+        <li>Inutusan siya ng Allah na gumawa ng malaking barko (Arka) upang iligtas ang mga naniniwala at pamilya.</li>
+        <li>Ang baha ay nilamon ang lahat ng masama maliban sa mga naniniwala at hayop sa Arka.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📜 Mahahalagang Aral</h2>
+      <ul>
+        <li>❖ Pagsunod sa Allah ay kaligtasan</li>
+        <li>❖ Pagtitiyaga at pagtitiis ay daan sa biyaya</li>
+        <li>❖ Katotohanan ay kailangang ipaglaban kahit kaunti lang ang sumusunod</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📖 Sanggunian sa Qur’an</h2>
+      <ul>
+        <li>Surah Hud (11:25–48)</li>
+        <li>Surah Al-Mu’minun (23:23–30)</li>
+        <li>Surah Nuh (71:1–28)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mga Kuwento ng mga Propeta (A.S.)</p>
+  </footer>
+
+  <script src="../script.js"></script>
 </body>
 </html>
