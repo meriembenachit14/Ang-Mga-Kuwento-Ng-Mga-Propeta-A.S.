@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kabanata 24 – Propeta Isa (A.S.)</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <h1>Kabanata 24 – Propeta Isa (A.S.)</h1>
+    <a href="../index.html">Balik sa Home</a>
+    <button id="toggle-theme">Dark/Light Mode</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>🌱 Sino si Propeta Isa (A.S.)</h2>
+      <p>Si Propeta Isa (A.S.) ay kilala bilang Jesus sa Kristiyanismo, ipinanganak mula kay Maria (Maryam). Siya ay isang dakilang propeta at isinugo ng Allah upang gabayan ang Bani Israel sa tamang pananampalataya.</p>
+    </section>
+
+    <section>
+      <h2>✨ Buhay at Himala</h2>
+      <ul>
+        <li>Ipinanganak ng isang dakilang milagro sa pamamagitan ng kapangyarihan ng Allah.</li>
+        <li>Gumawa ng maraming himala, gaya ng pagpapagaling sa may sakit at pagbibigay-buhay sa patay sa utos ng Allah.</li>
+        <li>Nagturo ng monoteismo at moralidad sa kanyang bayan.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📜 Mahahalagang Aral</h2>
+      <ul>
+        <li>❖ Pananampalataya sa Allah</li>
+        <li>❖ Paglilingkod at kabutihan sa kapwa</li>
+        <li>❖ Kababaang-loob at kabanalan</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📖 Sanggunian sa Qur’an</h2>
+      <ul>
+        <li>Surah Al-Imran (3:45–52)</li>
+        <li>Surah Maryam (19:16–36)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mga Kuwento ng mga Propeta (A.S.)</p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
