@@ -1,34 +1,69 @@
 <!DOCTYPE html>
 <html lang="tl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kabanata 2 – Propeta Idris (A.S.)</title>
-<link rel="stylesheet" href="../style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kabanata 2 – Propeta Idris (A.S.)</title>
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-<header>
-  <h1>Kabanata 2 – Propeta Idris (A.S.)</h1>
-  <a href="../index.html">⬅ Balik sa Home</a>
-</header>
+  <header>
+    <h1>Kabanata 2 – Propeta Idris (A.S.)</h1>
+    <a href="../index.html">Balik sa Home</a>
+    <button id="toggle-theme">Dark/Light Mode</button>
+  </header>
 
-<main>
-<h2>Pagkakakilanlan</h2>
-<p><strong>Pangalan:</strong> Idris (A.S.)</p>
-<p><strong>Pinagmulan:</strong> Mesopotamia (Sinasabing sa ngayon Iraq)</p>
-<p><strong>Panahon:</strong> Pagkatapos ni Adam (A.S.)</p>
-<p><strong>Pamilya:</strong> Hindi tiyak ang pangalan ng mga magulang</p>
+  <main>
+    <section>
+      <h2>🌱 Sino si Propeta Idris (A.S.)</h2>
+      <p>Si Propeta Idris (A.S.) ay isang maunlad at marunong na propeta na kilala sa kanyang karunungan at kabanalan. Siya rin ang unang sumulat ng mga liham at nakatuklas ng agham, tulad ng matematika at astronomiya.</p>
+    </section>
 
-<h2>Kuwento at Mahahalagang Kaganapan</h2>
-<p>Si Propeta Idris (A.S.) ay kilala bilang isang marunong na propeta at tagapagturo ng kaalaman sa sining, agham, at relihiyon. Siya ay unang nagturo ng pagsusulat, pananamit, at iba pang praktikal na kaalaman sa mga tao. Pinaniniwalaang si Idris ay umakyat sa langit nang hindi namatay.</p>
+    <section>
+      <h2>👨‍👩‍👧 Magulang at Kapanganakan</h2>
+      <p>Si Idris (A.S.) ay anak ni Yared, at ipinanganak sa Babilonia (tinukoy ng ilang historians). Walang tiyak na taon ng kapanganakan, ngunit siya ay kabilang sa mga unang henerasyon ng sangkatauhan pagkatapos ni Adam (A.S.).</p>
+    </section>
 
-<h2>Mga Salita at Aral</h2>
-<p>“Ang kaalaman at kabanalan ay dapat pagsamahin.” – Aral mula kay Idris (A.S.)</p>
-<p>Aral: Ang pag-aaral at pananampalataya ay dapat magkasabay sa paglago ng tao.</p>
+    <section>
+      <h2>✨ Kaalaman at Gawaing Pang-agham</h2>
+      <ul>
+        <li>Nagturo sa tao ng pagsusulat at pagbibilang.</li>
+        <li>Nakatuklas ng astronomiya at iba pang agham.</li>
+        <li>Kilala sa pagiging matuwid at malapit sa Allah.</li>
+      </ul>
+    </section>
 
-</main>
-<footer>
-  <p>&copy; 2025 Mga Kuwento ng mga Propeta (A.S.)</p>
-</footer>
+    <section>
+      <h2>🕊️ Pagiging Propeta</h2>
+      <ul>
+        <li>Ipinahayag ng Allah sa kanya ang mensahe ng kabanalan at moralidad.</li>
+        <li>Pinayuhan niya ang mga tao na sumunod sa Allah at umiwas sa kasamaan.</li>
+        <li>Siya ay itinaas ng Allah sa isang mataas na posisyon sa langit (ilang Hadith at tafsir).</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📜 Mahahalagang Aral</h2>
+      <ul>
+        <li>❖ Kaalaman ay biyaya mula sa Allah</li>
+        <li>❖ Pagiging matuwid at may kabanalan ay mahalaga sa pamumuhay</li>
+        <li>❖ Pag-aaral at pagtuturo ay paraan ng paglilingkod sa Allah</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📖 Sanggunian sa Qur’an</h2>
+      <ul>
+        <li>Surah Maryam (19:56–57)</li>
+        <li>Surah Al-Anbiya (21:85–86)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mga Kuwento ng mga Propeta (A.S.)</p>
+  </footer>
+
+  <script src="../script.js"></script>
 </body>
 </html>
