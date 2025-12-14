@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kabanata 4 – Propeta Hud (A.S.)</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <h1>Kabanata 4 – Propeta Hud (A.S.)</h1>
+    <a href="../index.html">Balik sa Home</a>
+    <button id="toggle-theme">Dark/Light Mode</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>🌱 Sino si Propeta Hud (A.S.)</h2>
+      <p>Si Propeta Hud (A.S.) ay ipinadala sa bayan ng ‘Ad upang itama ang kanilang pagsamba at itakwil ang kasamaan. Kilala siya sa kanyang pagtitiis at determinasyon sa pagdadala ng mensahe ng Allah.</p>
+    </section>
+
+    <section>
+      <h2>👨‍👩‍👧 Magulang at Kapanganakan</h2>
+      <p>Ipinanganak siya sa lahi ng ‘Ad sa Arabia, at tinuturing na isang propeta pagkatapos ni Nuh (A.S.).</p>
+    </section>
+
+    <section>
+      <h2>✨ Mensahe at Pagtuturo</h2>
+      <ul>
+        <li>Nagpahayag sa bayan ng ‘Ad na sumamba sa iisang Allah at iwasan ang kasamaan.</li>
+        <li>Pinayuhan ang mga tao na umiwas sa karahasan at pagmamataas.</li>
+        <li>Maraming tumanggi, kaya dumating ang malakas na bagyo bilang parusa mula sa Allah.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📜 Mahahalagang Aral</h2>
+      <ul>
+        <li>❖ Pagtitiis at determinasyon sa kabutihan</li>
+        <li>❖ Pagbabago ng lipunan sa pamamagitan ng moral na aral</li>
+        <li>❖ Ang pagsuway sa Allah ay may kasamang kaparusahan</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📖 Sanggunian sa Qur’an</h2>
+      <ul>
+        <li>Surah Hud (11:50–60)</li>
+        <li>Surah Al-A’raf (7:65–72)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mga Kuwento ng mga Propeta (A.S.)</p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
