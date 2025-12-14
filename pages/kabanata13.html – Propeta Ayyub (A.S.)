@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kabanata 13 – Propeta Ayyub (A.S.)</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <h1>Kabanata 13 – Propeta Ayyub (A.S.)</h1>
+    <a href="../index.html">Balik sa Home</a>
+    <button id="toggle-theme">Dark/Light Mode</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>🌱 Sino si Propeta Ayyub (A.S.)</h2>
+      <p>Si Propeta Ayyub (A.S.) ay kilala sa kanyang matinding pagtitiis sa sakit at kahirapan. Isa siya sa mga ehemplo ng katatagan at pananampalataya sa Allah.</p>
+    </section>
+
+    <section>
+      <h2>👨‍👩‍👧 Magulang at Kapanganakan</h2>
+      <p>Ipinanganak sa isang kilalang pamilya ng mga propeta. Mayaman, malusog, at pinalad sa pamilya ngunit sinubok ng Allah sa kalusugan at kayamanan.</p>
+    </section>
+
+    <section>
+      <h2>✨ Pagsubok at Katatagan</h2>
+      <ul>
+        <li>Pinagkaitan ng yaman, pamilya, at kalusugan, ngunit nanatiling tapat sa Allah.</li>
+        <li>Nang siya ay nagdasal, ibinalik ng Allah ang kanyang kalusugan at biyaya.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📜 Mahahalagang Aral</h2>
+      <ul>
+        <li>❖ Pagtitiis sa pagsubok</li>
+        <li>❖ Pananampalataya sa gitna ng kahirapan</li>
+        <li>❖ Pag-asa at panalangin sa Allah</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📖 Sanggunian sa Qur’an</h2>
+      <ul>
+        <li>Surah Sad (38:41–44)</li>
+        <li>Surah Al-Anbiya (21:83–84)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mga Kuwento ng mga Propeta (A.S.)</p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
