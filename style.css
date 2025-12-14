@@ -1,4 +1,4 @@
-/* Reset */
+/* Reset */ 
 * {
   margin: 0;
   padding: 0;
@@ -17,12 +17,12 @@ body {
 
 /* Header */
 header {
-  background: linear-gradient(135deg, #ffb6c1, #ff69b4);
+  background: linear-gradient(135deg, #ffe4e1, #ffccd9); /* pastel pink gradient */
   color: #fff;
   text-align: center;
   padding: 25px 15px;
   border-radius: 15px;
-  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.05);
 }
 
 header h1 {
@@ -36,7 +36,7 @@ header a, header button {
   padding: 10px 15px;
   text-decoration: none;
   color: #fff;
-  background-color: #ff69b4;
+  background-color: #ffb6c1; /* soft pink button */
   border: none;
   border-radius: 15px;
   cursor: pointer;
@@ -45,7 +45,7 @@ header a, header button {
 }
 
 header a:hover, header button:hover {
-  background-color: #ff85c1;
+  background-color: #ffc0cb;
   transform: scale(1.05);
 }
 
@@ -58,11 +58,11 @@ main {
 
 /* Section cards */
 main section {
-  background: #ffe4e1; /* light pastel pink */
+  background: #fff5f7; /* very light pastel pink */
   border-radius: 15px;
   padding: 15px 20px;
   margin-bottom: 20px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.03);
 }
 
 /* Headings */
@@ -70,22 +70,24 @@ h2 {
   margin-bottom: 12px;
   color: #ff69b4;
   font-size: 1.6rem;
-  border-bottom: 2px dotted #ffa07a;
+  border-bottom: 2px dotted #ffd1dc; /* soft border */
   padding-bottom: 5px;
 }
 
 /* Lists */
 ul {
   list-style-type: none;
-  padding-left: 0;
+  padding-left: 20px;
   margin-bottom: 15px;
 }
 
 ul li::before {
-  content: "🌸"; /* cute bullet */
+  content: "•"; /* simple bullet */
   display: inline-block;
   width: 1em;
   margin-left: -1em;
+  color: #ffd1dc; /* pastel bullet color */
+  font-size: 1.2em;
 }
 
 li {
@@ -97,38 +99,38 @@ footer {
   text-align: center;
   margin-top: 40px;
   padding: 15px;
-  background: linear-gradient(135deg, #ffb6c1, #ff69b4);
+  background: linear-gradient(135deg, #ffe4e1, #ffccd9);
   color: #fff;
   border-radius: 15px 15px 0 0;
   position: fixed;
   bottom: 0;
   width: 100%;
-  box-shadow: 0 -4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 -4px 10px rgba(0,0,0,0.05);
 }
 
 /* Dark Mode */
 body.dark-mode {
-  background: #2e1a36 url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
-  color: #ffe4e1;
+  background: #f5e6f0 url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+  color: #4b0082;
 }
 
 body.dark-mode header {
-  background: linear-gradient(135deg, #5e3b5e, #7d4c7d);
+  background: linear-gradient(135deg, #f7d6e0, #f3c4d6);
 }
 
 body.dark-mode header a, body.dark-mode header button {
-  background-color: #a25cae;
+  background-color: #f7a6c2;
 }
 
 body.dark-mode header a:hover, body.dark-mode header button:hover {
-  background-color: #c078d1;
+  background-color: #f8b7ce;
 }
 
 body.dark-mode h2 {
-  color: #ffa07a;
+  color: #ff85c1;
 }
 
 body.dark-mode main section {
-  background: #4b1a4f; /* dark pastel card */
-  color: #ffe4e1;
+  background: #ffe4e1; /* light pastel card for dark mode */
+  color: #4b0082;
 }
