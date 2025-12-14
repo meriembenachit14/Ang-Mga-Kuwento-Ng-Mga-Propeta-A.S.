@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kabanata 23 – Propeta Yahya (A.S.)</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <h1>Kabanata 23 – Propeta Yahya (A.S.)</h1>
+    <a href="../index.html">Balik sa Home</a>
+    <button id="toggle-theme">Dark/Light Mode</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>🌱 Sino si Propeta Yahya (A.S.)</h2>
+      <p>Si Propeta Yahya (A.S.) ay kilala sa kanyang kabanalan at katapatan sa Allah. Anak siya ni Propeta Zakariya (A.S.) at itinuturing na isa sa mga dakilang propeta ng Bani Israel.</p>
+    </section>
+
+    <section>
+      <h2>✨ Buhay at Mensahe</h2>
+      <ul>
+        <li>Pinanatili ang katarungan at kabanalan sa kanyang pamayanan.</li>
+        <li>Pinayuhan at tinuruan ang mga tao tungkol sa moralidad at pagtalima sa Allah.</li>
+        <li>Kilala sa kanyang kababaang-loob at pagiging tapat sa kanyang misyon.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📜 Mahahalagang Aral</h2>
+      <ul>
+        <li>❖ Katapatan at kabanalan</li>
+        <li>❖ Pagbibigay halimbawa sa komunidad</li>
+        <li>❖ Patuloy na pagsunod sa Allah</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📖 Sanggunian sa Qur’an</h2>
+      <ul>
+        <li>Surah Maryam (19:12–15)</li>
+        <li>Surah Al-An’am (6:85)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mga Kuwento ng mga Propeta (A.S.)</p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
