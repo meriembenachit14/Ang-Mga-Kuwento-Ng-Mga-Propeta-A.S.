@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kabanata 19 – Propeta Ilyas (A.S.)</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <h1>Kabanata 19 – Propeta Ilyas (A.S.)</h1>
+    <a href="../index.html">Balik sa Home</a>
+    <button id="toggle-theme">Dark/Light Mode</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>🌱 Sino si Propeta Ilyas (A.S.)</h2>
+      <p>Si Propeta Ilyas (A.S.) ay isang propeta na ipinadala upang paalalahanan ang mga tao laban sa pagsamba sa Baal at panatilihin ang katapatan sa Allah.</p>
+    </section>
+
+    <section>
+      <h2>✨ Buhay at Mensahe</h2>
+      <ul>
+        <li>Ipinadala sa Israel upang ituwid ang lipunan mula sa kasamaan at idolatrya.</li>
+        <li>Nagturo ng kabutihan, pananampalataya, at pagtitiwala sa Allah.</li>
+        <li>Nagpakita ng tapang sa harap ng mga hamon at oposisyon.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📜 Mahahalagang Aral</h2>
+      <ul>
+        <li>❖ Katapatan sa Allah</li>
+        <li>❖ Paglaban sa kasamaan</li>
+        <li>❖ Tapang at pagtitiis sa misyon ng propeta</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📖 Sanggunian sa Qur’an</h2>
+      <ul>
+        <li>Surah As-Saffat (37:123–132)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mga Kuwento ng mga Propeta (A.S.)</p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
