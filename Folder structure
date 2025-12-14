@@ -1,11 +1,32 @@
-/index.html
-/style.css
-/script.js
-/pages/
-    kabanata1.html
-    kabanata2.html
-    kabanata3.html
-    kabanata4.html
-    kabanata5.html
-    ...
-    kabanata25.html
+my-prophets-website/        <-- Root folder (pangalan mo ng project)
+│
+├── index.html               <-- Homepage (listahan ng lahat ng kabanata)
+├── style.css                <-- Global CSS file
+├── script.js                <-- JavaScript file (dark/light mode)
+│
+└── pages/                   <-- Folder para sa lahat ng kabanata
+    ├── kabanata1.html       <-- Propeta Adam
+    ├── kabanata2.html       <-- Propeta Idris
+    ├── kabanata3.html       <-- Propeta Nuh
+    ├── kabanata4.html       <-- Propeta Hud
+    ├── kabanata5.html       <-- Propeta Salih
+    ├── kabanata6.html       <-- Propeta Ibrahim
+    ├── kabanata7.html       <-- Propeta Lut
+    ├── kabanata8.html       <-- Propeta Ismail
+    ├── kabanata9.html       <-- Propeta Ishaq
+    ├── kabanata10.html      <-- Propeta Yaqub
+    ├── kabanata11.html      <-- Propeta Yusuf
+    ├── kabanata12.html      <-- Propeta Shu’ayb
+    ├── kabanata13.html      <-- Propeta Ayyub
+    ├── kabanata14.html      <-- Propeta Dhul-Kifl
+    ├── kabanata15.html      <-- Propeta Musa
+    ├── kabanata16.html      <-- Propeta Harun
+    ├── kabanata17.html      <-- Propeta Dawud
+    ├── kabanata18.html      <-- Propeta Sulaiman
+    ├── kabanata19.html      <-- Propeta Ilyas
+    ├── kabanata20.html      <-- Propeta Al-Yasa
+    ├── kabanata21.html      <-- Propeta Yunus
+    ├── kabanata22.html      <-- Propeta Zakariya
+    ├── kabanata23.html      <-- Propeta Yahya
+    ├── kabanata24.html      <-- Propeta Isa
+    └── kabanata25.html      <-- Propeta Muhammad ﷺ
