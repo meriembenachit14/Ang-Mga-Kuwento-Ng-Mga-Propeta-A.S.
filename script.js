@@ -1,10 +1,21 @@
-const toggleBtn = document.getElementById('toggleTheme');
+// Dark/Light Mode Toggle
+const toggleThemeBtn = document.getElementById('toggleTheme') || document.getElementById('toggle-theme');
 
-toggleBtn.addEventListener('click', () => {
+toggleThemeBtn.addEventListener('click', () => {
   document.body.classList.toggle('dark-mode');
-  if(document.body.classList.contains('dark-mode')) {
-    toggleBtn.textContent = 'Switch to Light Mode';
+
+  // Save preference in localStorage
+  if(document.body.classList.contains('dark-mode')){
+    localStorage.setItem('theme', 'dark');
   } else {
-    toggleBtn.textContent = 'Switch to Dark Mode';
+    localStorage.setItem('theme', 'light');
+  }
+});
+
+// Load saved theme preference
+window.addEventListener('DOMContentLoaded', () => {
+  const savedTheme = localStorage.getItem('theme');
+  if(savedTheme === 'dark'){
+    document.body.classList.add('dark-mode');
   }
 });
