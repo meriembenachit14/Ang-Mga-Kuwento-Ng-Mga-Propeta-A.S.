@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kabanata 22 – Propeta Zakariya (A.S.)</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <h1>Kabanata 22 – Propeta Zakariya (A.S.)</h1>
+    <a href="../index.html">Balik sa Home</a>
+    <button id="toggle-theme">Dark/Light Mode</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>🌱 Sino si Propeta Zakariya (A.S.)</h2>
+      <p>Si Propeta Zakariya (A.S.) ay isang propeta na kilala sa kanyang panalangin sa Allah para sa isang anak sa kabila ng kanyang katandaan. Siya ay ama ni Propeta Yahya (A.S.).</p>
+    </section>
+
+    <section>
+      <h2>✨ Buhay at Panalangin</h2>
+      <ul>
+        <li>Ipinadala sa Bani Israel upang paalalahanan ang kabutihan at pagtalima sa Allah.</li>
+        <li>Nanalangin para sa isang tagapagmana at ipinagkaloob sa kanya ang Propeta Yahya (A.S.) sa kanyang katandaan.</li>
+        <li>Kilala sa kanyang pagtitiyaga, kabutihan, at pananampalataya.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📜 Mahahalagang Aral</h2>
+      <ul>
+        <li>❖ Panalangin at pagtitiwala sa Allah</li>
+        <li>❖ Pagpapakumbaba sa kabila ng edad o sitwasyon</li>
+        <li>❖ Katatagan sa pananampalataya</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📖 Sanggunian sa Qur’an</h2>
+      <ul>
+        <li>Surah Maryam (19:2–15)</li>
+        <li>Surah Al-Anbiya (21:89–90)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mga Kuwento ng mga Propeta (A.S.)</p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
