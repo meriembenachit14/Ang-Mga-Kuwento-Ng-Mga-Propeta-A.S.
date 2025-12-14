@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kabanata 25 – Propeta Muhammad ﷺ</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <h1>Kabanata 25 – Propeta Muhammad ﷺ</h1>
+    <a href="../index.html">Balik sa Home</a>
+    <button id="toggle-theme">Dark/Light Mode</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>🌱 Sino si Propeta Muhammad ﷺ</h2>
+      <p>Si Propeta Muhammad ﷺ ay ang huling propeta ng Islam, ipinanganak sa Mecca noong 570 CE sa tribo ng Quraysh. Siya ay ipinadala upang kumpletuhin at tapusin ang mensahe ng lahat ng propeta bago siya.</p>
+    </section>
+
+    <section>
+      <h2>✨ Buhay at Misyon</h2>
+      <ul>
+        <li>Tinanggap ang unang pahayag mula sa Allah sa edad na 40 sa Cave of Hira.</li>
+        <li>Nagturo ng monoteismo, katarungan, at kabutihan sa lipunan.</li>
+        <li>Naging modelo ng moralidad, kabutihan, at kababaang-loob.</li>
+        <li>Pinamunuan ang Madinah at pinagtibay ang Islam sa Arabian Peninsula.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📜 Mahahalagang Aral</h2>
+      <ul>
+        <li>❖ Tawheed – Pag-isa sa Allah</li>
+        <li>❖ Katarungan at kabutihan sa lipunan</li>
+        <li>❖ Kababaang-loob at paggalang sa kapwa</li>
+        <li>❖ Pagtitiis sa gitna ng pagsubok</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📖 Sanggunian sa Qur’an</h2>
+      <ul>
+        <li>Surah Al-Ahzab (33:40)</li>
+        <li>Surah Al-Muddaththir (74:1–7)</li>
+        <li>Surah Al-Qadr (97:1–5)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mga Kuwento ng mga Propeta (A.S.)</p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
