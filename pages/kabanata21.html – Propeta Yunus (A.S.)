@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kabanata 21 – Propeta Yunus (A.S.)</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <h1>Kabanata 21 – Propeta Yunus (A.S.)</h1>
+    <a href="../index.html">Balik sa Home</a>
+    <button id="toggle-theme">Dark/Light Mode</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>🌱 Sino si Propeta Yunus (A.S.)</h2>
+      <p>Si Propeta Yunus (A.S.) ay ipinadala sa bayan ng Ninawa upang ipaalala ang kabutihan at pagsamba sa Allah. Kilala siya sa kwento ng pagiging nilamon ng malaking isda.</p>
+    </section>
+
+    <section>
+      <h2>✨ Buhay at Misyon</h2>
+      <ul>
+        <li>Nagsilbi bilang propeta sa Ninawa, ipinapahayag ang babala at panawagan sa pagbabago.</li>
+        <li>Nagsisi ang mga tao sa kanilang kasamaan matapos ang babala ni Yunus (A.S.).</li>
+        <li>Hinamon ang kanyang sariling pasensya at pananampalataya nang siya ay nilamon ng malaking isda sa dagat.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📜 Mahahalagang Aral</h2>
+      <ul>
+        <li>❖ Pagsisisi at pananalig sa Allah ay laging tinatanggap</li>
+        <li>❖ Huwag mawalan ng pag-asa sa awa ng Allah</li>
+        <li>❖ Katatagan sa harap ng pagsubok</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📖 Sanggunian sa Qur’an</h2>
+      <ul>
+        <li>Surah Al-Saffat (37:139–148)</li>
+        <li>Surah Al-Anbiya (21:87–88)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mga Kuwento ng mga Propeta (A.S.)</p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
