@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kabanata 18 – Propeta Sulaiman (A.S.)</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <h1>Kabanata 18 – Propeta Sulaiman (A.S.)</h1>
+    <a href="../index.html">Balik sa Home</a>
+    <button id="toggle-theme">Dark/Light Mode</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>🌱 Sino si Propeta Sulaiman (A.S.)</h2>
+      <p>Si Propeta Sulaiman (A.S.) ay anak ni Propeta Dawud (A.S.), kilala sa kanyang karunungan, katarungan, at kakayahang makipag-usap sa hayop at elemento ng kalikasan.</p>
+    </section>
+
+    <section>
+      <h2>👨‍👩‍👧 Kapanganakan at Buhay</h2>
+      <p>Ipinanganak sa Bethlehem, lumaki bilang tagapagmana ng kaharian ng kanyang ama. Pinatibay niya ang kanyang pamumuno sa pamamagitan ng katarungan at pananalig sa Allah.</p>
+    </section>
+
+    <section>
+      <h2>✨ Himala at Mensahe</h2>
+      <ul>
+        <li>May kapangyarihan sa hayop, hangin, at jinn sa utos ng Allah.</li>
+        <li>Pinahusay ang ekonomiya at lipunan ng kanyang bayan.</li>
+        <li>Nagpakita ng kabutihan at kaalaman sa kanyang pamumuno.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📜 Mahahalagang Aral</h2>
+      <ul>
+        <li>❖ Karunungan bilang gabay sa pamumuno</li>
+        <li>❖ Katarungan sa lahat ng nilalang</li>
+        <li>❖ Pagkilala sa kapangyarihan ng Allah</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📖 Sanggunian sa Qur’an</h2>
+      <ul>
+        <li>Surah Sad (38:30–40)</li>
+        <li>Surah An-Naml (27:15–44)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mga Kuwento ng mga Propeta (A.S.)</p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
