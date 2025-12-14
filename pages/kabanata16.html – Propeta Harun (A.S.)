@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kabanata 16 – Propeta Harun (A.S.)</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <h1>Kabanata 16 – Propeta Harun (A.S.)</h1>
+    <a href="../index.html">Balik sa Home</a>
+    <button id="toggle-theme">Dark/Light Mode</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>🌱 Sino si Propeta Harun (A.S.)</h2>
+      <p>Si Propeta Harun (A.S.) ay kapatid ni Propeta Musa (A.S.) at tumulong bilang kanyang tagapayo at katuwang sa paghahatid ng mensahe ng Allah sa Bani Israel.</p>
+    </section>
+
+    <section>
+      <h2>👨‍👩‍👧 Kapanganakan at Buhay</h2>
+      <p>Isinilang sa pamilya nina Imran at Yokhebed sa Egypt, kasama ni Musa (A.S.) sa panahon ng pang-aapi ng Pharaoh. Siya ay naging propeta at tagapagturo ng katarungan at pananampalataya.</p>
+    </section>
+
+    <section>
+      <h2>✨ Paglilingkod at Mensahe</h2>
+      <ul>
+        <li>Pinangunahan ang pagtuturo ng monoteismo habang kasama si Musa (A.S.).</li>
+        <li>Itinuro ang kabutihan at pagsunod sa batas ng Allah.</li>
+        <li>Nanatiling matatag sa harap ng mga hamon at pagsubok sa Egypt.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📜 Mahahalagang Aral</h2>
+      <ul>
+        <li>❖ Katatagan sa pananampalataya</li>
+        <li>❖ Pagkakaisa sa pamilya at pamayanan</li>
+        <li>❖ Paglilingkod sa kapwa bilang tungkulin sa Allah</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📖 Sanggunian sa Qur’an</h2>
+      <ul>
+        <li>Surah Taha (20:29–36)</li>
+        <li>Surah Al-A’raf (7:142–144)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mga Kuwento ng mga Propeta (A.S.)</p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
