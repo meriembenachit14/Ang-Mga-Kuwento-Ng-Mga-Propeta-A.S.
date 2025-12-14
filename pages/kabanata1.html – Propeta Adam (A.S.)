@@ -36,4 +36,53 @@
     <section>
       <h2>🕊️ Ang Pagpapatirapa ng mga Anghel</h2>
       <ul>
-        <li>Inutusan ng Allah ang la
+        <li>Inutusan ng Allah ang lahat ng anghel na magpatirapa bilang paggalang kay Adam (A.S.).</li>
+        <li>Lahat ay sumunod maliban kay Iblis, na naging mapagmataas at sinabing: "Aking sarili ay mas mabuti kaysa sa kanya. Ako ay nilikha mula sa apoy, at siya ay mula sa lupa."</li>
+        <li>Dahil sa kanyang pagmamataas, pinalayas siya ng Allah at isinumpa hanggang sa Araw ng Paghuhukom.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🌸 Si Hawa at ang Hardin ng Paraiso</h2>
+      <ul>
+        <li>Nilalang ng Allah si Hawa, asawa ni Adam (A.S.).</li>
+        <li>Nanirahan sila sa Paraiso, pinahintulutan silang tamasahin ang lahat ng biyaya maliban sa isang ipinagbabawal na puno.</li>
+        <li>Nilinlang sila ni Iblis at kumain mula sa ipinagbabawal na puno.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🌧️ Pagsisisi at Kapatawaran</h2>
+      <ul>
+        <li>Nagsisi sila sa Allah nang mapagtanto ang pagkakamali: "Panginoon namin, kami ay nagkamali sa aming mga sarili. Kung hindi Mo kami patatawarin, tiyak kaming mapapabilang sa mga talunan."</li>
+        <li>Tinanggap ng Allah ang kanilang pagsisisi at ibinaba sila sa lupa upang magsimula ng bagong buhay bilang unang pamilya ng sangkatauhan.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📜 Mga Mahahalagang Aral</h2>
+      <ul>
+        <li>❖ Pagmamataas ay ugat ng kasamaan</li>
+        <li>❖ Tao ay maaaring magkamali, ngunit ang pagsisisi ay daan sa kapatawaran</li>
+        <li>❖ Allah ay laging handang magpatawad</li>
+        <li>❖ Kaalaman ay biyaya mula sa Allah</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📖 Sanggunian sa Qur’an</h2>
+      <ul>
+        <li>Surah Al-Baqarah (2:30–39)</li>
+        <li>Surah Al-A’raf (7:11–27)</li>
+        <li>Surah Ta-Ha (20:115–123)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mga Kuwento ng mga Propeta (A.S.)</p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
