@@ -1,4 +1,4 @@
-/* Reset */
+/* Reset */ 
 * {
   margin: 0;
   padding: 0;
@@ -8,8 +8,8 @@
 /* Body */
 body {
   font-family: 'Comic Sans MS', cursive, sans-serif;
-  background: #fff8f0; /* soft pastel beige */
-  color: #4b2e2e; /* gentle brown for readability */
+  background: #fff8f0 url('https://www.transparenttextures.com/patterns/pw-maze-white.png'); /* subtle kawaii pattern */
+  color: #4b0082;
   line-height: 1.6;
   transition: background 0.3s, color 0.3s;
   padding-bottom: 80px;
@@ -17,12 +17,12 @@ body {
 
 /* Header */
 header {
-  background: linear-gradient(135deg, #ffe4e1, #ffd1dc); /* pastel pink gradient */
-  color: #4b2e2e;
+  background: linear-gradient(135deg, #fbe8e7, #ffd1dc); /* pastel pink gradient */
+  color: #4b0082;
   text-align: center;
   padding: 25px 15px;
   border-radius: 15px;
-  box-shadow: 0 6px 12px rgba(0,0,0,0.05);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
 }
 
 header h1 {
@@ -35,8 +35,8 @@ header a, header button {
   margin: 5px 10px;
   padding: 10px 15px;
   text-decoration: none;
-  color: #4b2e2e;
-  background-color: #ffd1dc;
+  color: #4b0082;
+  background-color: #ffc0cb; /* pastel pink button */
   border: none;
   border-radius: 15px;
   cursor: pointer;
@@ -45,7 +45,7 @@ header a, header button {
 }
 
 header a:hover, header button:hover {
-  background-color: #ffc0cb;
+  background-color: #ffb6c1;
   transform: scale(1.05);
 }
 
@@ -58,25 +58,25 @@ main {
 
 /* Section cards */
 main section {
-  background: #fff0f5; /* light pastel pink */
+  background: #fff0f5; /* very light pastel pink */
   border-radius: 15px;
   padding: 15px 20px;
   margin-bottom: 20px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.03);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
 
 /* Headings */
 h2 {
   margin-bottom: 12px;
-  color: #ff69b4;
+  color: #ff69b4; /* pastel pink */
   font-size: 1.6rem;
   border-bottom: 2px dotted #ffc0cb;
   padding-bottom: 5px;
 }
 
-/* Lists */
+/* Lists - no bullets */
 ul {
-  list-style-type: none; /* removed bullets */
+  list-style: none;
   padding-left: 0;
   margin-bottom: 15px;
 }
@@ -90,31 +90,31 @@ footer {
   text-align: center;
   margin-top: 40px;
   padding: 15px;
-  background: linear-gradient(135deg, #ffe4e1, #ffd1dc);
-  color: #4b2e2e;
+  background: linear-gradient(135deg, #fbe8e7, #ffd1dc);
+  color: #4b0082;
   border-radius: 15px 15px 0 0;
   position: fixed;
   bottom: 0;
   width: 100%;
-  box-shadow: 0 -4px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 -4px 10px rgba(0,0,0,0.1);
 }
 
 /* Dark Mode */
 body.dark-mode {
-  background: #f2e6f0; /* soft lavender for dark mode pastel feel */
-  color: #4b2e2e;
+  background: #f5e6f0 url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+  color: #4b0082;
 }
 
 body.dark-mode header {
-  background: linear-gradient(135deg, #ffd1dc, #ffe4e1);
+  background: linear-gradient(135deg, #e3c7d9, #dca3c8);
 }
 
 body.dark-mode header a, body.dark-mode header button {
-  background-color: #ffe4e1;
+  background-color: #eaaed1;
 }
 
 body.dark-mode header a:hover, body.dark-mode header button:hover {
-  background-color: #ffc0cb;
+  background-color: #f2b6db;
 }
 
 body.dark-mode h2 {
@@ -122,6 +122,6 @@ body.dark-mode h2 {
 }
 
 body.dark-mode main section {
-  background: #ffe0f0; /* pastel light pink card */
-  color: #4b2e2e;
+  background: #f3d9e0; /* dark pastel card in dark mode */
+  color: #4b0082;
 }
