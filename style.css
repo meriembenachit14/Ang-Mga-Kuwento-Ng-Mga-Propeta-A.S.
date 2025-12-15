@@ -1,177 +1,146 @@
-/* =======================
-   RESET
-======================= */
+/* ================= Reset & Base ================= */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* =======================
-   BODY
-======================= */
 body {
   font-family: 'Comic Sans MS', cursive, sans-serif;
-  background: #fff8f0 url('https://www.transparenttextures.com/patterns/pw-maze-white.png');
-  color: #4b0082;
   line-height: 1.6;
-  transition: background 0.3s, color 0.3s;
-  padding-bottom: 80px;
+  background-color: #fff8f0;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-/* =======================
-   HEADER
-======================= */
+/* ================= Dark Mode ================= */
+body.dark-mode {
+  background-color: #2b2b3a;
+  color: #f0e6f6;
+}
+
+/* ================= Header ================= */
 header {
-  background: linear-gradient(135deg, #fbe8e7, #ffd1dc);
-  color: #4b0082;
+  background-color: #ffb6b9;
   text-align: center;
-  padding: 25px 15px;
-  border-radius: 15px;
-  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  padding: 1rem 0;
+  border-bottom: 3px solid #ffd6d6;
+}
+
+header.dark-mode {
+  background-color: #3a3a4f;
+  border-bottom-color: #5a5a7a;
 }
 
 header h1 {
-  margin-bottom: 10px;
   font-size: 2rem;
+  color: #fff;
 }
 
-header a,
-header button {
-  display: inline-block;
-  margin: 5px 10px;
-  padding: 10px 15px;
-  text-decoration: none;
-  color: #4b0082;
-  background-color: #ffc0cb;
+header.dark-mode h1 {
+  color: #f0e6f6;
+}
+
+#toggle-theme {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
   border: none;
-  border-radius: 15px;
+  border-radius: 12px;
   cursor: pointer;
-  transition: background 0.3s, transform 0.2s;
+  background-color: #ffd6d6;
+  color: #333;
   font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-header a:hover,
-header button:hover {
-  background-color: #ffb6c1;
-  transform: scale(1.05);
+body.dark-mode #toggle-theme {
+  background-color: #5a5a7a;
+  color: #f0e6f6;
 }
 
-/* =======================
-   MAIN CONTENT
-======================= */
+/* ================= Main Sections ================= */
 main {
   max-width: 900px;
-  margin: 20px auto;
-  padding: 0 15px;
+  margin: 2rem auto;
+  padding: 0 1rem;
 }
 
-/* =======================
-   SECTIONS
-======================= */
-main section {
-  background: #fff0f5;
+section {
+  background-color: #ffe4e1;
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.5rem;
   border-radius: 15px;
-  padding: 15px 20px;
-  margin-bottom: 20px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-}
-
-/* =======================
-   HEADINGS
-======================= */
-h2 {
-  margin-bottom: 12px;
-  color: #ff69b4;
-  font-size: 1.6rem;
-  border-bottom: 2px dotted #ffc0cb;
-  padding-bottom: 5px;
-}
-
-/* =======================
-   LISTS
-======================= */
-ul {
-  list-style: none;
-  padding-left: 0;
-  margin-bottom: 15px;
-}
-
-li {
-  margin-bottom: 10px;
-}
-
-/* =======================
-   VERSE TOGGLE
-======================= */
-.verse-content {
-  display: none;
-  background: #fff0f5;  /* same as section background */
-  padding: 1rem;
-  margin: 0.5rem 0;
-  border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  color: #4b0082; /* text color */
+  transition: background-color 0.3s, box-shadow 0.3s;
 }
 
-.verse-link {
-  cursor: pointer;
-  color: #ff1493;
-  text-decoration: underline;
+body.dark-mode section {
+  background-color: #3b3b55;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
 }
 
-.verse-link:hover {
-  color: #ff69b4;
+section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #ff6f91;
 }
 
-/* =======================
-   FOOTER
-======================= */
+body.dark-mode section h2 {
+  color: #ffb6b9;
+}
+
+section ul {
+  list-style: none;
+}
+
+section ul li {
+  margin-bottom: 0.8rem;
+}
+
+section ul li a {
+  text-decoration: none;
+  color: #ff6f91;
+  font-weight: bold;
+  padding: 0.3rem 0.5rem;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+section ul li a:hover {
+  background-color: #ffb6b9;
+  color: #fff;
+}
+
+body.dark-mode section ul li a {
+  color: #ffb6b9;
+}
+
+body.dark-mode section ul li a:hover {
+  background-color: #ff6f91;
+  color: #fff;
+}
+
+/* ================= Footer ================= */
 footer {
   text-align: center;
-  margin-top: 40px;
-  padding: 15px;
-  background: linear-gradient(135deg, #fbe8e7, #ffd1dc);
-  color: #4b0082;
-  border-radius: 15px 15px 0 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  box-shadow: 0 -4px 10px rgba(0,0,0,0.1);
+  padding: 1rem 0;
+  background-color: #ffb6b9;
+  color: #fff;
+  border-top: 3px solid #ffd6d6;
 }
 
-/* =======================
-   DARK MODE
-======================= */
-body.dark-mode {
-  background: #f5e6f0 url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
-  color: #4b0082;
+body.dark-mode footer {
+  background-color: #3a3a4f;
+  border-top-color: #5a5a7a;
+  color: #f0e6f6;
 }
 
-body.dark-mode header {
-  background: linear-gradient(135deg, #e3c7d9, #dca3c8);
+/* ================= Buttons & Links ================= */
+button {
+  font-family: inherit;
+  transition: all 0.3s;
 }
 
-body.dark-mode header a,
-body.dark-mode header button {
-  background-color: #eaaed1;
-}
-
-body.dark-mode header a:hover,
-body.dark-mode header button:hover {
-  background-color: #f2b6db;
-}
-
-body.dark-mode h2 {
-  color: #ff69b4;
-}
-
-body.dark-mode main section {
-  background: #f3d9e0;
-  color: #4b0082;
-}
-
-body.dark-mode .verse-content {
-  background: #f3d9e0;
-  color: #4b0082;
+a {
+  transition: all 0.3s;
 }
