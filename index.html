@@ -4,150 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Panimulang Gabay sa Islam at Propeta</title>
-
-  <!-- Cute Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
-
-  <!-- Main CSS -->
   <link rel="stylesheet" href="style.css">
-
-  <style>
-    body {
-      font-family: 'Baloo 2', cursive;
-      background-color: #fff0f5; /* pastel pink */
-      color: #333;
-      transition: background 0.3s, color 0.3s;
-      padding: 0 1rem;
-    }
-
-    header {
-      text-align: center;
-      padding: 2rem 0;
-      background-color: #ffd6e8;
-      border-bottom: 3px solid #ffc0cb;
-      border-radius: 0 0 20px 20px;
-    }
-
-    header h1 {
-      color: #ff1493;
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-    }
-
-    #toggle-theme {
-      cursor: pointer;
-      padding: 0.5rem 1rem;
-      font-size: 1rem;
-      border: none;
-      border-radius: 12px;
-      background-color: #ffe4e1;
-      transition: 0.3s;
-    }
-
-    #toggle-theme:hover {
-      background-color: #ffb6c1;
-      color: white;
-    }
-
-    main {
-      margin: 2rem auto;
-      max-width: 800px;
-    }
-
-    section {
-      margin-bottom: 2rem;
-      background-color: #fff0f5;
-      padding: 1.5rem;
-      border-radius: 15px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    }
-
-    section h2 {
-      color: #ff69b4;
-      margin-bottom: 1rem;
-    }
-
-    section ul {
-      list-style: none;
-      padding-left: 0;
-    }
-
-    section ul li a {
-      display: block;
-      text-decoration: none;
-      color: #ff1493;
-      padding: 0.5rem 0;
-      border-bottom: 1px dotted #ffb6c1;
-      transition: 0.3s;
-    }
-
-    section ul li a:hover {
-      color: #fff;
-      background-color: #ff69b4;
-      border-radius: 8px;
-      padding-left: 0.8rem;
-    }
-
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background-color: #ffd6e8;
-      border-top: 3px solid #ffc0cb;
-      border-radius: 20px 20px 0 0;
-      color: #ff1493;
-      margin-top: 2rem;
-    }
-
-    /* Dark Mode */
-    body.dark-mode {
-      background-color: #2c2c54;
-      color: #f8f8ff;
-    }
-
-    body.dark-mode header {
-      background-color: #4b4b82;
-      border-bottom: 3px solid #3c3c6d;
-    }
-
-    body.dark-mode header h1 {
-      color: #f9a825;
-    }
-
-    body.dark-mode #toggle-theme {
-      background-color: #4b4b82;
-      color: #f9a825;
-    }
-
-    body.dark-mode section {
-      background-color: #3c3c6d;
-    }
-
-    body.dark-mode section h2 {
-      color: #f9a825;
-    }
-
-    body.dark-mode section ul li a {
-      color: #f9a825;
-      border-bottom: 1px dotted #f9a825;
-    }
-
-    body.dark-mode section ul li a:hover {
-      background-color: #f9a825;
-      color: #2c2c54;
-    }
-
-    body.dark-mode footer {
-      background-color: #4b4b82;
-      border-top: 3px solid #3c3c6d;
-      color: #f9a825;
-    }
-  </style>
 </head>
-<body class="light-mode">
-
+<body>
   <header>
     <h1>Panimulang Gabay sa Islam at Propeta</h1>
-    <button id="toggle-theme">🌙 / ☀️ Dark/Light Mode</button>
+    <button id="toggle-theme">Dark/Light Mode</button>
   </header>
 
   <main>
@@ -155,12 +17,12 @@
     <section>
       <h2>Part 1: Panimula sa Islam</h2>
       <ul>
-        <li><a href="page1.html">Ano ang Islam?</a></li>
-        <li><a href="page2.html">Pananampalataya sa iisang Diyos (Tawheed)</a></li>
-        <li><a href="page3.html">Ang Papel ng mga Propeta</a></li>
-        <li><a href="page4.html">Limang Haligi ng Islam</a></li>
-        <li><a href="page5.html">Layunin ng Islam</a></li>
-        <li><a href="page6.html">Ang Qur’an – Salita ng Diyos</a></li>
+        <li><a href="pages/part1/page1.html">Ano ang Islam?</a></li>
+        <li><a href="pages/part1/page2.html">Pananampalataya sa iisang Diyos (Tawheed)</a></li>
+        <li><a href="pages/part1/page3.html">Ang Papel ng mga Propeta</a></li>
+        <li><a href="pages/part1/page4.html">Limang Haligi ng Islam</a></li>
+        <li><a href="pages/part1/page5.html">Layunin ng Islam</a></li>
+        <li><a href="pages/part1/page6.html">Ang Qur’an – Salita ng Diyos</a></li>
       </ul>
     </section>
 
@@ -168,11 +30,11 @@
     <section>
       <h2>Part 2: Kabanata 1–5</h2>
       <ul>
-        <li><a href="kabanata1.html">Kabanata 1 – Propeta Adam (A.S.)</a></li>
-        <li><a href="kabanata2.html">Kabanata 2 – Propeta Idris (A.S.)</a></li>
-        <li><a href="kabanata3.html">Kabanata 3 – Propeta Nuh (A.S.)</a></li>
-        <li><a href="kabanata4.html">Kabanata 4 – Propeta Hud (A.S.)</a></li>
-        <li><a href="kabanata5.html">Kabanata 5 – Propeta Salih (A.S.)</a></li>
+        <li><a href="pages/kabanata1.html">Kabanata 1 – Propeta Adam (A.S.)</a></li>
+        <li><a href="pages/kabanata2.html">Kabanata 2 – Propeta Idris (A.S.)</a></li>
+        <li><a href="pages/kabanata3.html">Kabanata 3 – Propeta Nuh (A.S.)</a></li>
+        <li><a href="pages/kabanata4.html">Kabanata 4 – Propeta Hud (A.S.)</a></li>
+        <li><a href="pages/kabanata5.html">Kabanata 5 – Propeta Salih (A.S.)</a></li>
       </ul>
     </section>
 
@@ -180,11 +42,11 @@
     <section>
       <h2>Part 3: Kabanata 6–10</h2>
       <ul>
-        <li><a href="kabanata6.html">Kabanata 6 – Propeta Ibrahim (A.S.)</a></li>
-        <li><a href="kabanata7.html">Kabanata 7 – Propeta Lut (A.S.)</a></li>
-        <li><a href="kabanata8.html">Kabanata 8 – Propeta Ismail (A.S.)</a></li>
-        <li><a href="kabanata9.html">Kabanata 9 – Propeta Ishaq (A.S.)</a></li>
-        <li><a href="kabanata10.html">Kabanata 10 – Propeta Yaqub (A.S.)</a></li>
+        <li><a href="pages/kabanata6.html">Kabanata 6 – Propeta Ibrahim (A.S.)</a></li>
+        <li><a href="pages/kabanata7.html">Kabanata 7 – Propeta Lut (A.S.)</a></li>
+        <li><a href="pages/kabanata8.html">Kabanata 8 – Propeta Ismail (A.S.)</a></li>
+        <li><a href="pages/kabanata9.html">Kabanata 9 – Propeta Ishaq (A.S.)</a></li>
+        <li><a href="pages/kabanata10.html">Kabanata 10 – Propeta Yaqub (A.S.)</a></li>
       </ul>
     </section>
 
@@ -192,11 +54,11 @@
     <section>
       <h2>Part 4: Kabanata 11–15</h2>
       <ul>
-        <li><a href="kabanata11.html">Kabanata 11 – Propeta Yusuf (A.S.)</a></li>
-        <li><a href="kabanata12.html">Kabanata 12 – Propeta Shu’ayb (A.S.)</a></li>
-        <li><a href="kabanata13.html">Kabanata 13 – Propeta Ayyub (A.S.)</a></li>
-        <li><a href="kabanata14.html">Kabanata 14 – Propeta Dhul-Kifl (A.S.)</a></li>
-        <li><a href="kabanata15.html">Kabanata 15 – Propeta Musa (A.S.)</a></li>
+        <li><a href="pages/kabanata11.html">Kabanata 11 – Propeta Yusuf (A.S.)</a></li>
+        <li><a href="pages/kabanata12.html">Kabanata 12 – Propeta Shu’ayb (A.S.)</a></li>
+        <li><a href="pages/kabanata13.html">Kabanata 13 – Propeta Ayyub (A.S.)</a></li>
+        <li><a href="pages/kabanata14.html">Kabanata 14 – Propeta Dhul-Kifl (A.S.)</a></li>
+        <li><a href="pages/kabanata15.html">Kabanata 15 – Propeta Musa (A.S.)</a></li>
       </ul>
     </section>
 
@@ -204,11 +66,11 @@
     <section>
       <h2>Part 5: Kabanata 16–20</h2>
       <ul>
-        <li><a href="kabanata16.html">Kabanata 16 – Propeta Harun (A.S.)</a></li>
-        <li><a href="kabanata17.html">Kabanata 17 – Propeta Dawud (A.S.)</a></li>
-        <li><a href="kabanata18.html">Kabanata 18 – Propeta Sulaiman (A.S.)</a></li>
-        <li><a href="kabanata19.html">Kabanata 19 – Propeta Ilyas (A.S.)</a></li>
-        <li><a href="kabanata20.html">Kabanata 20 – Propeta Al-Yasa (A.S.)</a></li>
+        <li><a href="pages/kabanata16.html">Kabanata 16 – Propeta Harun (A.S.)</a></li>
+        <li><a href="pages/kabanata17.html">Kabanata 17 – Propeta Dawud (A.S.)</a></li>
+        <li><a href="pages/kabanata18.html">Kabanata 18 – Propeta Sulaiman (A.S.)</a></li>
+        <li><a href="pages/kabanata19.html">Kabanata 19 – Propeta Ilyas (A.S.)</a></li>
+        <li><a href="pages/kabanata20.html">Kabanata 20 – Propeta Al-Yasa (A.S.)</a></li>
       </ul>
     </section>
 
@@ -216,11 +78,11 @@
     <section>
       <h2>Part 6: Kabanata 21–25</h2>
       <ul>
-        <li><a href="kabanata21.html">Kabanata 21 – Propeta Yunus (A.S.)</a></li>
-        <li><a href="kabanata22.html">Kabanata 22 – Propeta Zakariya (A.S.)</a></li>
-        <li><a href="kabanata23.html">Kabanata 23 – Propeta Yahya (A.S.)</a></li>
-        <li><a href="kabanata24.html">Kabanata 24 – Propeta Isa (A.S.)</a></li>
-        <li><a href="kabanata25.html">Kabanata 25 – Propeta Muhammad ﷺ</a></li>
+        <li><a href="pages/kabanata21.html">Kabanata 21 – Propeta Yunus (A.S.)</a></li>
+        <li><a href="pages/kabanata22.html">Kabanata 22 – Propeta Zakariya (A.S.)</a></li>
+        <li><a href="pages/kabanata23.html">Kabanata 23 – Propeta Yahya (A.S.)</a></li>
+        <li><a href="pages/kabanata24.html">Kabanata 24 – Propeta Isa (A.S.)</a></li>
+        <li><a href="pages/kabanata25.html">Kabanata 25 – Propeta Muhammad ﷺ</a></li>
       </ul>
     </section>
   </main>
@@ -229,14 +91,6 @@
     <p>&copy; 2025 Panimulang Gabay sa Islam at Propeta</p>
   </footer>
 
-  <script>
-    // Dark / Light Mode Toggle
-    const toggleBtn = document.getElementById('toggle-theme');
-    toggleBtn.addEventListener('click', () => {
-      document.body.classList.toggle('dark-mode');
-      document.body.classList.toggle('light-mode');
-    });
-  </script>
-
+  <script src="script.js"></script>
 </body>
 </html>
