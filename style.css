@@ -1,131 +1,127 @@
-/* Reset */
+/* Reset */ 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body – book background */
+/* Body */
 body {
   font-family: 'Comic Sans MS', cursive, sans-serif;
-  background: #fff8f0 url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+  background: #fff8f0 url('https://www.transparenttextures.com/patterns/pw-maze-white.png');
   color: #4b0082;
-  line-height: 1.8;
-  padding: 40px 15px;
+  line-height: 1.6;
   transition: background 0.3s, color 0.3s;
+  padding-bottom: 80px;
 }
 
-/* BOOK CONTAINER EFFECT */
-header,
-main,
-footer {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-/* Header – book title */
+/* Header */
 header {
-  background: linear-gradient(135deg, #ffe4ec, #ffd1dc);
+  background: linear-gradient(135deg, #fbe8e7, #ffd1dc);
+  color: #4b0082;
   text-align: center;
-  padding: 30px 20px;
-  border-radius: 25px 25px 10px 10px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-  margin-bottom: 25px;
+  padding: 25px 15px;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
 }
 
 header h1 {
-  font-size: 2.2rem;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+  font-size: 2rem;
 }
 
-header a,
-header button {
+header a, header button {
   display: inline-block;
-  margin: 5px;
-  padding: 10px 18px;
-  border-radius: 20px;
-  background: #ffc0cb;
-  color: #4b0082;
+  margin: 5px 10px;
+  padding: 10px 15px;
   text-decoration: none;
+  color: #4b0082;
+  background-color: #ffc0cb;
   border: none;
-  font-weight: bold;
+  border-radius: 15px;
   cursor: pointer;
-  transition: transform 0.2s, background 0.3s;
+  transition: background 0.3s, transform 0.2s;
+  font-weight: bold;
 }
 
-header a:hover,
-header button:hover {
-  background: #ffb6c1;
-  transform: translateY(-2px);
+header a:hover, header button:hover {
+  background-color: #ffb6c1;
+  transform: scale(1.05);
 }
 
-/* Main – book pages */
+/* Main */
 main {
-  background: #fff;
-  padding: 35px 30px;
-  border-radius: 10px;
-  box-shadow: inset 0 0 30px rgba(0,0,0,0.05),
-              0 12px 30px rgba(0,0,0,0.15);
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 15px;
 }
 
-/* Each section = page block */
+/* Section cards */
 main section {
-  margin-bottom: 35px;
-  padding-bottom: 30px;
-  border-bottom: 2px dashed #ffd1dc;
-}
-
-main section:last-child {
-  border-bottom: none;
+  background: #fff0f5;
+  border-radius: 15px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
 
 /* Headings */
 h2 {
+  margin-bottom: 12px;
   color: #ff69b4;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
+  border-bottom: 2px dotted #ffc0cb;
+  padding-bottom: 5px;
+}
+
+/* Lists - no bullets */
+ul {
+  list-style: none;
+  padding-left: 0;
   margin-bottom: 15px;
 }
 
-h3 {
-  color: #d63384;
-  margin: 15px 0 8px;
+li {
+  margin-bottom: 10px;
 }
 
-/* Lists – book style */
-ul {
-  list-style: none;
-  padding-left: 10px;
-}
-
-li::before {
-  content: "🌸 ";
-}
-
-/* Footer – book end */
+/* Footer */
 footer {
   text-align: center;
-  margin-top: 25px;
+  margin-top: 40px;
   padding: 15px;
-  background: linear-gradient(135deg, #ffe4ec, #ffd1dc);
-  border-radius: 0 0 25px 25px;
-  box-shadow: 0 -8px 20px rgba(0,0,0,0.15);
+  background: linear-gradient(135deg, #fbe8e7, #ffd1dc);
+  color: #4b0082;
+  border-radius: 15px 15px 0 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -4px 10px rgba(0,0,0,0.1);
 }
 
-/* DARK MODE – night reading */
+/* Dark Mode */
 body.dark-mode {
-  background: #2b2430 url('https://www.transparenttextures.com/patterns/paper-fibers.png');
-  color: #f3e6ef;
+  background: #f5e6f0 url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+  color: #4b0082;
 }
 
-body.dark-mode main {
-  background: #3a2f40;
+body.dark-mode header {
+  background: linear-gradient(135deg, #e3c7d9, #dca3c8);
 }
 
-body.dark-mode header,
-body.dark-mode footer {
-  background: linear-gradient(135deg, #6d4c6d, #8a5a83);
+body.dark-mode header a, body.dark-mode header button {
+  background-color: #eaaed1;
+}
+
+body.dark-mode header a:hover, body.dark-mode header button:hover {
+  background-color: #f2b6db;
 }
 
 body.dark-mode h2 {
-  color: #ffb6d5;
+  color: #ff69b4;
+}
+
+body.dark-mode main section {
+  background: #f3d9e0;
+  color: #4b0082;
 }
