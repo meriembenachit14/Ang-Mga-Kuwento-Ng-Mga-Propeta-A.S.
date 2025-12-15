@@ -5,27 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kabanata 5 – Propeta Salih (A.S.)</title>
   <link rel="stylesheet" href="../style.css">
-  <style>
-    /* Verse toggle styles */
-    .verse-content {
-      display: none;
-      background: #fff0f5;
-      padding: 1rem;
-      margin: 0.5rem 0;
-      border-radius: 12px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    }
-
-    .verse-link {
-      cursor: pointer;
-      color: #ff1493;
-      text-decoration: underline;
-    }
-
-    .verse-link:hover {
-      color: #ff69b4;
-    }
-  </style>
 </head>
 <body>
   <header>
@@ -73,77 +52,19 @@
         <li>
           <a href="#" class="verse-link" data-verse="al-araf">Surah Al-A’raf (7:65–72)</a>
           <div class="verse-content" id="al-araf">
-            <ol>
-              <li>
-                <strong>Pagpapadala kay Salih (7:65–66)</strong><br>
-                Sinabi ng Allah kay Salih: “O aking mga tao, sumamba kayo sa Allah. Huwag kayong sumunod sa kasamaan at diyus-diyosan.”<br>
-                Ipinadala siya sa mga Thamud, kilala sa kayamanan at karangyaan ngunit sumuway sa Allah.<br>
-                <em>Aral:</em> Ang propeta ay ipinadala upang gabayan ang tao kahit sa gitna ng kasamaan at kayabangan.
-              </li>
-              <li>
-                <strong>Patuloy na Babala (7:67–70)</strong><br>
-                Paulit-ulit niyang sinabi sa mga tao: “Sumampalataya kayo at huwag sumuway sa Allah. Ako ay inyong tagapayo at tagapagpaalala.”<br>
-                Marami ang tumanggi at ipinakita ang kayabangan.<br>
-                <em>Aral:</em> Ang pagtanggi sa aral ng Diyos ay nagdudulot ng kaparusahan; ang patuloy na paalala ng propeta ay mahalaga.
-              </li>
-              <li>
-                <strong>Himala at Kaparusahan (7:71–72)</strong><br>
-                Ipinakita ng Allah ang kabayang kambing bilang tanda.<br>
-                Ang mga naniniwala ay nailigtas, ang mga sumuway ay pinarusahan.<br>
-                <em>Aral:</em> Ang pagsunod sa Allah ay nagdudulot ng kaligtasan; ang pagsuway ay may kaparusahan.
-              </li>
-            </ol>
+            <!-- Nilalaman ng verses dito, maaari ring i-structure katulad ng kabanata4 -->
           </div>
         </li>
-
         <li>
           <a href="#" class="verse-link" data-verse="hud-thamud">Surah Hud (11:61–68)</a>
           <div class="verse-content" id="hud-thamud">
-            <ol>
-              <li>
-                <strong>Pagpapadala kay Salih (11:61–63)</strong><br>
-                Sinabi ng Allah kay Salih na ipaalam sa kanyang mga tao ang mensahe: sumamba sa iisang Allah at iwasan ang kasamaan.<br>
-                Si Salih ay ipinadala sa bayan ng Thamud upang itama ang kanilang maling gawain.<br>
-                <em>Aral:</em> Ang misyon ng propeta ay gabayan ang tao sa tamang landas at ipaalala ang Allah.
-              </li>
-              <li>
-                <strong>Patuloy na Babala (11:64–66)</strong><br>
-                Nagbigay si Salih ng babala at paalala sa kabutihan.<br>
-                Ang mga naniniwala ay sumunod, ang iba ay nagpatuloy sa kasamaan.<br>
-                <em>Aral:</em> Ang pagtuturo ng tama ay tungkulin ng propeta, at ang pagsunod sa Allah ay mahalaga.
-              </li>
-              <li>
-                <strong>Kaparusahan at Kaligtasan (11:67–68)</strong><br>
-                Ang mga tumanggi sa babala ay sinalanta ng Allah.<br>
-                Ang mga naniniwala kay Salih ay iniligtas.<br>
-                <em>Aral:</em> Ang pagsunod sa Allah at sa utos ng propeta ay nagdudulot ng kaligtasan; ang pagsuway ay may kaparusahan.
-              </li>
-            </ol>
+            <!-- Nilalaman ng verses dito -->
           </div>
         </li>
-
         <li>
           <a href="#" class="verse-link" data-verse="ash-shuara">Surah Ash-Shu’ara (26:141–159)</a>
           <div class="verse-content" id="ash-shuara">
-            <ol>
-              <li>
-                <strong>Pagpapadala at Paalala kay Salih (26:141–148)</strong><br>
-                Si Salih ay ipinadala sa kanyang mga tao upang sumamba sa iisang Allah at iwanan ang kasamaan.<br>
-                Pinayuhan niya ang kanyang bayan na maging mapagpakumbaba at huwag abusuhin ang kanilang kapangyarihan at kayamanan.<br>
-                <em>Aral:</em> Ang mga paalala ng propeta ay nagbibigay ng gabay at babala sa lahat ng tao.
-              </li>
-              <li>
-                <strong>Himala at Pag-uulit ng Babala (26:149–153)</strong><br>
-                Ipinakita ang kabayang kambing bilang tanda mula sa Allah.<br>
-                Nagpatuloy si Salih sa pagbibigay babala sa mga tumanggi.<br>
-                <em>Aral:</em> Ang mga himala at tanda ng Allah ay paalala sa Kanyang kapangyarihan at dapat sundin.
-              </li>
-              <li>
-                <strong>Kaparusahan at Kaligtasan (26:154–159)</strong><br>
-                Ang mga sumuway ay pinarusahan, habang ang mga naniniwala ay nailigtas.<br>
-                <em>Aral:</em> Ang pagsunod sa Allah ay nagdudulot ng kaligtasan; ang hindi pagsunod ay may kaparusahan.
-              </li>
-            </ol>
+            <!-- Nilalaman ng verses dito -->
           </div>
         </li>
       </ul>
@@ -155,19 +76,20 @@
   </footer>
 
   <script>
-    const verseLinks = document.querySelectorAll('.verse-link');
+    // Dark/Light mode toggle
+    const toggleBtn = document.getElementById('toggle-theme');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
 
+    // Verse toggle
+    const verseLinks = document.querySelectorAll('.verse-link');
     verseLinks.forEach(link => {
       link.addEventListener('click', function(e){
         e.preventDefault();
         const verseId = this.getAttribute('data-verse');
         const contentDiv = document.getElementById(verseId);
-
-        if(contentDiv.style.display === 'block'){
-          contentDiv.style.display = 'none';
-        } else {
-          contentDiv.style.display = 'block';
-        }
+        contentDiv.style.display = contentDiv.style.display === 'block' ? 'none' : 'block';
       });
     });
   </script>
