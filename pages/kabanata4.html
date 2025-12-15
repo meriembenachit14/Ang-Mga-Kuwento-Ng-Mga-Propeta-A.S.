@@ -3,12 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kabanata 4 – Propeta Hud (A.S.)</title>
+  <title>Kabanata 4 – Propeta Hud at Salih (A.S.)</title>
   <link rel="stylesheet" href="../style.css">
+  <style>
+    /* Verse toggle styles */
+    .verse-content {
+      display: none;
+      background: #f0f8ff;
+      padding: 1rem;
+      margin: 0.5rem 0;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .verse-link {
+      cursor: pointer;
+      color: #1e90ff;
+      text-decoration: underline;
+    }
+
+    .verse-link:hover {
+      color: #4169e1;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>Kabanata 4 – Propeta Hud (A.S.)</h1>
+    <h1>Kabanata 4 – Propeta Hud at Salih (A.S.)</h1>
     <a href="../index.html">Balik sa Home</a>
     <button id="toggle-theme">Dark/Light Mode</button>
   </header>
@@ -27,26 +48,56 @@
     <section>
       <h2>✨ Mensahe at Pagtuturo</h2>
       <ul>
-        <li>Nagpahayag sa bayan ng ‘Ad na sumamba sa iisang Allah at iwasan ang kasamaan.</li>
-        <li>Pinayuhan ang mga tao na umiwas sa karahasan at pagmamataas.</li>
-        <li>Maraming tumanggi, kaya dumating ang malakas na bagyo bilang parusa mula sa Allah.</li>
+        <li>Nagpaalala sa bayan ng ‘Ad na sumamba sa iisang Allah at iwasan ang kasamaan (11:50–51).</li>
+        <li>Pinayuhan ang mga tao na huwag maging mapagmataas at umiwas sa kasamaan (11:52–55).</li>
+        <li>Ang hindi naniniwala ay pinarusahan ng Allah, habang ang mga naniniwala ay iniligtas (11:56–60).</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🌱 Sino si Propeta Salih (A.S.)</h2>
+      <p>Si Propeta Salih (A.S.) ay ipinadala sa mga Thamud, na kilala sa kanilang kayamanan at karangyaan ngunit sumuway sa Allah at nagkasala.</p>
+    </section>
+
+    <section>
+      <h2>✨ Mensahe at Himala ni Salih</h2>
+      <ul>
+        <li>Nagpaalala sa kanyang mga tao na sumunod sa Allah at huwag sumuway sa Kanya (7:65–66).</li>
+        <li>Paulit-ulit nagbigay ng babala at paalala sa kabutihan, kahit maraming tumanggi at nagpakita ng kayabangan (7:67–70).</li>
+        <li>Ipinakita ni Allah ang kabayang kambing bilang tanda; ang mga naniniwala ay pinrotektahan, at ang mga sumuway ay pinarusahan (7:71–72).</li>
       </ul>
     </section>
 
     <section>
       <h2>📜 Mahahalagang Aral</h2>
       <ul>
-        <li>❖ Pagtitiis at determinasyon sa kabutihan</li>
-        <li>❖ Pagbabago ng lipunan sa pamamagitan ng moral na aral</li>
-        <li>❖ Ang pagsuway sa Allah ay may kasamang kaparusahan</li>
+        <li>❖ Pagtuturo ng propeta at pagtitiis sa pagpapayo</li>
+        <li>❖ Pagsunod sa Allah ay nagdudulot ng kaligtasan</li>
+        <li>❖ Kaparusahan sa kasamaan para sa mga tumanggi</li>
+        <li>❖ Himala at tanda ng Allah ay paalala sa kapangyarihan Niya</li>
       </ul>
     </section>
 
     <section>
       <h2>📖 Sanggunian sa Qur’an</h2>
       <ul>
-        <li>Surah Hud (11:50–60)</li>
-        <li>Surah Al-A’raf (7:65–72)</li>
+        <li>
+          <a href="#" class="verse-link" data-verse="hud">Surah Hud (11:50–60) – Propeta Hud (A.S.)</a>
+          <div class="verse-content" id="hud">
+            <p><strong>Verses 11:50–51:</strong> “O aking mga tao, sumamba kayo sa Allah at huwag kayong sumunod sa kasamaan at diyus-diyosan.”</p>
+            <p><strong>Verses 11:52–55:</strong> “Hindi ba ninyo nalalaman na ang Allah lamang ang nararapat sambahin? Ako ay inyong tagapayo at tagapagpaalala.”</p>
+            <p><strong>Verses 11:56–60:</strong> Darating ang parusa sa mga hindi naniniwala, ngunit si Hud at ang mga naniniwala ay iniligtas.</p>
+          </div>
+        </li>
+
+        <li>
+          <a href="#" class="verse-link" data-verse="salih">Surah Al-A’raf (7:65–72) – Propeta Salih (A.S.)</a>
+          <div class="verse-content" id="salih">
+            <p><strong>Verses 7:65–66:</strong> “O aking mga tao, sumamba kayo sa Allah. Huwag kayong sumunod sa kasamaan at diyus-diyosan.”</p>
+            <p><strong>Verses 7:67–70:</strong> “Sumampalataya kayo at sundin ang tamang landas. Ako ay inyong tagapayo at tagapagpaalala.”</p>
+            <p><strong>Verses 7:71–72:</strong> Ang kabayang kambing bilang tanda; ang mga naniniwala ay pinrotektahan, at ang mga sumuway ay pinarusahan.</p>
+          </div>
+        </li>
       </ul>
     </section>
   </main>
@@ -55,6 +106,23 @@
     <p>&copy; 2025 Mga Kuwento ng mga Propeta (A.S.)</p>
   </footer>
 
-  <script src="../script.js"></script>
+  <script>
+    const verseLinks = document.querySelectorAll('.verse-link');
+
+    verseLinks.forEach(link => {
+      link.addEventListener('click', function(e){
+        e.preventDefault();
+        const verseId = this.getAttribute('data-verse');
+        const contentDiv = document.getElementById(verseId);
+
+        // Toggle visibility
+        if(contentDiv.style.display === 'block'){
+          contentDiv.style.display = 'none';
+        } else {
+          contentDiv.style.display = 'block';
+        }
+      });
+    });
+  </script>
 </body>
 </html>
