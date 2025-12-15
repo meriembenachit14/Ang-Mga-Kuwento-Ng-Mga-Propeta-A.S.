@@ -5,6 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kabanata 2 – Propeta Idris (A.S.)</title>
   <link rel="stylesheet" href="../style.css">
+  <style>
+    /* Verse toggle styles */
+    .verse-content {
+      display: none;
+      background: #fff0f5;
+      padding: 1rem;
+      margin: 0.5rem 0;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .verse-link {
+      cursor: pointer;
+      color: #ff1493;
+      text-decoration: underline;
+    }
+
+    .verse-link:hover {
+      color: #ff69b4;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -54,8 +75,39 @@
     <section>
       <h2>📖 Sanggunian sa Qur’an</h2>
       <ul>
-        <li>Surah Maryam (19:56–57)</li>
-        <li>Surah Al-Anbiya (21:85–86)</li>
+        <li>
+          <a href="#" class="verse-link" data-verse="maryam">Surah Maryam (19:56–57)</a>
+          <div class="verse-content" id="maryam">
+            <p><strong>Verses 56–57: Propeta Idris (Enoch)</strong></p>
+            <p><strong>Verse 19:56</strong>: “At (Ipinagkaloob din Namin sa) Idris ng mataas na katayuan.”</p>
+            <p><strong>Verse 19:57</strong>: “At Inilagay Namin siya sa isang matuwid na landas.”</p>
+            <p><strong>Paliwanag sa Tagalog:</strong><br>
+            Si Propeta Idris (A.S.) ay isang matuwid na propeta bago pa dumating si Nuh (Noah). Ang Allah ay nagtaas ng kanyang katayuan dahil sa kanyang katapatan, kabanalan, at kaalaman. Siya rin ay ginabayan sa isang matuwid na daan, ibig sabihin ay pinanatili siyang matapat sa mga aral ng Allah at laging gumagawa ng tama.</p>
+            <p><strong>Aral:</strong></p>
+            <ul>
+              <li>Kababaan at kabanalan ay pinaparangalan ng Allah – tulad kay Idris na binigyan ng mataas na katayuan.</li>
+              <li>Pananatili sa tamang landas – kahit sa gitna ng tukso, ang pagtutok sa Allah ay nagbibigay ng gabay.</li>
+              <li>Halimbawa ng propeta sa katapatan – maaari natin siyang tularan sa pagiging matuwid at maaasahan.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li>
+          <a href="#" class="verse-link" data-verse="al-anbiya">Surah Al-Anbiya (21:85–86)</a>
+          <div class="verse-content" id="al-anbiya">
+            <p><strong>Verses 21:85–86: Propeta Ayyub (Job)</strong></p>
+            <p><strong>Verse 21:85</strong>: “At (alaala rin namin ang) Ayyub, nang siya’y tumawag sa kanyang Panginoon, ‘Tiyak na ako’y pinahihirapan, ngunit Ikaw ay ang Pinakamapagpatawad sa lahat.’”</p>
+            <p><strong>Verse 21:86</strong>: “At Kanyang tinugon siya at tinanggal ang lahat ng paghihirap na kanyang dinanas, at siya’y pinagpala sa isang dakilang gantimpala.”</p>
+            <p><strong>Paliwanag sa Tagalog:</strong><br>
+            Si Propeta Ayyub (A.S.) ay kilala sa katatagan at pagtitiis sa harap ng matinding pagsubok. Nang dumating ang matinding sakit at paghihirap sa kanya, siya ay nanawagan sa Allah ng may kababaang-loob: “Tiyak na ako’y pinahihirapan, ngunit Ikaw ay ang Pinakamapagpatawad sa lahat.” Dahil sa kanyang pananalig at pagtitiis, tinugon ng Allah ang kanyang dasal, tinanggal ang kanyang paghihirap, at pinagkalooban siya ng dakilang gantimpala.</p>
+            <p><strong>Aral:</strong></p>
+            <ul>
+              <li>Pagtitiis sa pagsubok – kahit malaki ang hirap, ang pananalig at pagtitiis ay mahalaga.</li>
+              <li>Paghingi ng tulong sa Allah – sa kababaang-loob at pananalangin, mayroong tugon at tulong mula sa Allah.</li>
+              <li>Gantimpala sa pagiging matuwid – ang pagsunod sa Allah at pagtitiis sa pagsubok ay nagdadala ng pagpapala.</li>
+            </ul>
+          </div>
+        </li>
       </ul>
     </section>
   </main>
@@ -64,6 +116,23 @@
     <p>&copy; 2025 Mga Kuwento ng mga Propeta (A.S.)</p>
   </footer>
 
-  <script src="../script.js"></script>
+  <script>
+    const verseLinks = document.querySelectorAll('.verse-link');
+
+    verseLinks.forEach(link => {
+      link.addEventListener('click', function(e){
+        e.preventDefault();
+        const verseId = this.getAttribute('data-verse');
+        const contentDiv = document.getElementById(verseId);
+
+        // Toggle visibility
+        if(contentDiv.style.display === 'block'){
+          contentDiv.style.display = 'none';
+        } else {
+          contentDiv.style.display = 'block';
+        }
+      });
+    });
+  </script>
 </body>
 </html>
