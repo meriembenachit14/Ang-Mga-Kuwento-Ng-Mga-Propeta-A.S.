@@ -5,6 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kabanata 3 – Propeta Nuh (A.S.)</title>
   <link rel="stylesheet" href="../style.css">
+  <style>
+    /* Verse toggle styles */
+    .verse-content {
+      display: none;
+      background: #fff0f5;
+      padding: 1rem;
+      margin: 0.5rem 0;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .verse-link {
+      cursor: pointer;
+      color: #ff1493;
+      text-decoration: underline;
+    }
+
+    .verse-link:hover {
+      color: #ff69b4;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -53,9 +74,48 @@
     <section>
       <h2>📖 Sanggunian sa Qur’an</h2>
       <ul>
-        <li>Surah Hud (11:25–48)</li>
-        <li>Surah Al-Mu’minun (23:23–30)</li>
-        <li>Surah Nuh (71:1–28)</li>
+        <li>
+          <a href="#" class="verse-link" data-verse="hud">Surah Hud (11:25–48)</a>
+          <div class="verse-content" id="hud">
+            <p><strong>Verses 25–48: Kuwento ni Propeta Nuh (A.S.)</strong></p>
+            <p><strong>Pagpapadala kay Nuh (11:25–28)</strong>: Sinabi ng Allah kay Nuh: “Hindi Ko ba ipinadala sa iyo ang mensahe para sa iyong mga tao na sumamba sa Akin at iwanan ang mga diyus-diyosan?”<br>
+            Si Nuh ay nagsabi sa kanyang mga tao: “O aking mga tao, sumamba kayo sa Allah at iwanan ang kasamaan bago dumating ang parusa.”<br>
+            Maraming tumanggi at sinabing siya ay sinungaling.<br>
+            <strong>Aral:</strong> Kahit maraming tumanggi o hamunin ka, ang pagtuturo ng tama ay dapat ipagpatuloy. Pagtitiis at pagtitiwala sa Allah ay mahalaga.</p>
+
+            <p><strong>Patuloy na Babala (11:29–32)</strong>: Paulit-ulit na nagbabala si Nuh: “Kayo ba ay mamumuhay sa kasamaan at hindi sumusunod sa Allah? Sumampalataya kayo at magbalik-loob bago dumating ang parusa!”<br>
+            Marami pa rin ang hindi naniniwala. Si Nuh ay nanawagan sa Allah para sa gabay at proteksyon ng kanyang sarili at ng mga naniniwala.<br>
+            <strong>Aral:</strong> Ang pagtanggi sa aral ng Diyos ay may kaparusahan, ngunit ang pananalig at patuloy na pagtuturo ng tama ay mahalaga.</p>
+
+            <p><strong>Utos na Gumawa ng Barko (11:33–36)</strong>: Inutusan ng Allah si Nuh na gumawa ng barko at dalhin dito ang mga naniniwala.<br>
+            Ang mga naniniwala ay sumunod at sumama sa barko. Ang mga hindi naniniwala ay nanatili sa lupa at hindi tinulungan.<br>
+            <strong>Aral:</strong> Pagsunod sa Allah ay nagdudulot ng kaligtasan. Ang gabay at utos ng Allah ay dapat sundin.</p>
+
+            <p><strong>Malakas na Baha at Kaligtasan (11:37–48)</strong>: Dumating ang malakas na baha bilang parusa sa mga hindi naniniwala.<br>
+            Ang barko ay nagligtas sa mga naniniwala. Lahat ng hindi sumunod sa Allah ay nalunod.<br>
+            Pagkatapos ng baha, binigyan ng Allah ng bagong pagkakataon ang tao upang muling mamuhay sa lupa.<br>
+            <strong>Aral:</strong> Ang buhay sa lupa ay isang pagsubok at pagkakataon. Pananalig at pagtitiwala sa Allah ay nagdudulot ng kaligtasan at bagong simula. Ang hindi pagsunod sa aral ng Diyos ay may kaparusahan.</p>
+          </div>
+        </li>
+
+        <li>
+          <a href="#" class="verse-link" data-verse="al-muminun">Surah Al-Mu’minun (23:23–30)</a>
+          <div class="verse-content" id="al-muminun">
+            <p><strong>Verses 23–30: Kuwento ni Propeta Nuh (A.S.)</strong></p>
+            <p>Si Nuh ay paulit-ulit nagbabala sa kanyang mga tao na sumampalataya bago dumating ang parusa. Ang mga naniniwala ay sumunod sa utos ng Allah at nailigtas sa pamamagitan ng barko. Ang mga hindi naniniwala ay nanatili sa lupa at hindi nakaligtas.<br>
+            <strong>Aral:</strong> Pagtuturo ng tama at pagtitiis ay mahalaga, pagsunod sa Allah ay nagdudulot ng kaligtasan, at buhay sa lupa ay pagsubok.</p>
+          </div>
+        </li>
+
+        <li>
+          <a href="#" class="verse-link" data-verse="nuh">Surah Nuh (71:1–28)</a>
+          <div class="verse-content" id="nuh">
+            <p><strong>Verses 1–28: Kuwento ni Propeta Nuh (A.S.)</strong></p>
+            <p>Si Nuh ay inutusan ng Allah na ipaalam sa kanyang mga tao na sumamba sa iisang Allah at iwanan ang diyus-diyosan. Marami ang tumanggi.<br>
+            Patuloy na nagbabala at nananalig, gumawa ng barko at nailigtas ang mga naniniwala. Ang baha ay dumating bilang parusa sa mga hindi naniniwala.<br>
+            <strong>Aral:</strong> Pagtitiwala at pasasalamat sa Allah, pagsunod sa Kanya, at buhay sa lupa ay pagkakataon para sa bagong simula.</p>
+          </div>
+        </li>
       </ul>
     </section>
   </main>
@@ -64,6 +124,23 @@
     <p>&copy; 2025 Mga Kuwento ng mga Propeta (A.S.)</p>
   </footer>
 
-  <script src="../script.js"></script>
+  <script>
+    const verseLinks = document.querySelectorAll('.verse-link');
+
+    verseLinks.forEach(link => {
+      link.addEventListener('click', function(e){
+        e.preventDefault();
+        const verseId = this.getAttribute('data-verse');
+        const contentDiv = document.getElementById(verseId);
+
+        // Toggle visibility
+        if(contentDiv.style.display === 'block'){
+          contentDiv.style.display = 'none';
+        } else {
+          contentDiv.style.display = 'block';
+        }
+      });
+    });
+  </script>
 </body>
 </html>
