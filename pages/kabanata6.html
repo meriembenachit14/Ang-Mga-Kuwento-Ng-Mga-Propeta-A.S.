@@ -25,6 +25,13 @@
     .verse-link:hover {
       color: #00bfff;
     }
+
+    /* Optional: heading spacing */
+    section h2 {
+      margin-top: 1.5rem;
+      font-size: 1.5rem;
+      color: #333;
+    }
   </style>
 </head>
 <body>
@@ -36,12 +43,12 @@
 
   <main>
     <section>
-      <h2>🌱 Sino si Propeta Ibrahim (A.S.)</h2>
+      <h2>Sino si Propeta Ibrahim (A.S.)</h2>
       <p>Si Propeta Ibrahim (A.S.), kilala rin bilang Abraham, ay tinaguriang "Amang ng mga Propeta". Ipinanganak siya sa Ur ng mga Chaldean (kasalukuyang Iraq). Anak siya ni Azar at may pamilya na mula sa isang komunidad na sumasamba sa idolo.</p>
     </section>
 
     <section>
-      <h2>✨ Paniniwala at Misyon</h2>
+      <h2>Paniniwala at Misyon</h2>
       <ul>
         <li>Pinangunahan niya ang pagtuturo sa monoteismo sa gitna ng lipunang idolatrya.</li>
         <li>Nilabanan niya ang idolatrya, kabilang ang pagtutol sa sariling ama at pamayanan.</li>
@@ -50,7 +57,7 @@
     </section>
 
     <section>
-      <h2>🛠️ Notable Events</h2>
+      <h2>Notable Events</h2>
       <ul>
         <li>Sinunog niya ang mga idolo sa templo ng kanyang bayan bilang simbolo ng pagtutol sa paganismo.</li>
         <li>Inutusan ng Allah na iwan si Hagar at Ismail sa disyertong Bakka, kung saan nagtatag siya ng Kaaba sa Mecca.</li>
@@ -59,17 +66,17 @@
     </section>
 
     <section>
-      <h2>🕊️ Mga Quotes at Aral</h2>
+      <h2>Mga Quotes at Aral</h2>
       <ul>
         <li>"Walang Diyos kundi ang Allah." – ipinakita niya sa buong buhay niya ang monoteismo.</li>
-        <li>❖ Katapangan at pagtitiwala sa Allah</li>
-        <li>❖ Pagsuway sa kasamaan kahit mahirap o mapanganib</li>
-        <li>❖ Halimbawa ng walang hanggang pananampalataya</li>
+        <li>Katapangan at pagtitiwala sa Allah</li>
+        <li>Pagsuway sa kasamaan kahit mahirap o mapanganib</li>
+        <li>Halimbawa ng walang hanggang pananampalataya</li>
       </ul>
     </section>
 
     <section>
-      <h2>📖 Sanggunian sa Qur’an</h2>
+      <h2>Sanggunian sa Qur’an</h2>
       <ul>
         <li>
           <a href="#" class="verse-link" data-verse="baqarah">Surah Al-Baqarah (2:124–141)</a>
@@ -140,20 +147,17 @@
 
   <script src="../script.js"></script>
   <script>
-    const verseLinks = document.querySelectorAll('.verse-link');
-
-    verseLinks.forEach(link => {
-      link.addEventListener('click', function(e){
-        e.preventDefault();
-        const verseId = this.getAttribute('data-verse');
-        const contentDiv = document.getElementById(verseId);
-
-        // Toggle visibility
-        if(contentDiv.style.display === 'block'){
-          contentDiv.style.display = 'none';
-        } else {
-          contentDiv.style.display = 'block';
-        }
+    document.addEventListener("DOMContentLoaded", function() {
+      const verseLinks = document.querySelectorAll('.verse-link');
+      verseLinks.forEach(link => {
+        link.addEventListener('click', function(e){
+          e.preventDefault();
+          const verseId = this.getAttribute('data-verse');
+          const contentDiv = document.getElementById(verseId);
+          if(contentDiv) {
+            contentDiv.style.display = contentDiv.style.display === 'block' ? 'none' : 'block';
+          }
+        });
       });
     });
   </script>
