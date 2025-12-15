@@ -5,6 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kabanata 6 – Propeta Ibrahim (A.S.)</title>
   <link rel="stylesheet" href="../style.css">
+  <style>
+    /* Verse toggle styles */
+    .verse-content {
+      display: none;
+      background: #f0f8ff;
+      padding: 1rem;
+      margin: 0.5rem 0;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .verse-link {
+      cursor: pointer;
+      color: #1e90ff;
+      text-decoration: underline;
+    }
+
+    .verse-link:hover {
+      color: #00bfff;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -16,7 +37,7 @@
   <main>
     <section>
       <h2>🌱 Sino si Propeta Ibrahim (A.S.)</h2>
-      <p>Si Propeta Ibrahim (A.S.), kilala rin bilang Abraham, ay tinaguriang "Amang ng mga Propeta". Ipinanganak siya sa Ur ng mga Chaldean (kasalukuyang Iraq) noong humigit-kumulang 1996 BCE. Anak siya ni Azar at may pamilya na mula sa isang komunidad na sumasamba sa idolo.</p>
+      <p>Si Propeta Ibrahim (A.S.), kilala rin bilang Abraham, ay tinaguriang "Amang ng mga Propeta". Ipinanganak siya sa Ur ng mga Chaldean (kasalukuyang Iraq). Anak siya ni Azar at may pamilya na mula sa isang komunidad na sumasamba sa idolo.</p>
     </section>
 
     <section>
@@ -32,7 +53,7 @@
       <h2>🛠️ Notable Events</h2>
       <ul>
         <li>Sinunog niya ang mga idolo sa templo ng kanyang bayan bilang simbolo ng pagtutol sa paganismo.</li>
-        <li>Inutusan ng Allah na iwan si Hagar at Ismail sa disyertong Bakka, kung saan nagtatag siya ng kauna-unahang lugar ng pagdarasal na naging Kaaba sa Mecca.</li>
+        <li>Inutusan ng Allah na iwan si Hagar at Ismail sa disyertong Bakka, kung saan nagtatag siya ng Kaaba sa Mecca.</li>
         <li>Ang handog kay Ismail: Ipinakita niya ang sukdulang pananampalataya, at pinalitan ng Allah ng tupa sa huling sandali.</li>
       </ul>
     </section>
@@ -50,9 +71,65 @@
     <section>
       <h2>📖 Sanggunian sa Qur’an</h2>
       <ul>
-        <li>Surah Al-Baqarah (2:124–141)</li>
-        <li>Surah Ibrahim (14:35–41)</li>
-        <li>Surah As-Saffat (37:83–113)</li>
+        <li>
+          <a href="#" class="verse-link" data-verse="baqarah">Surah Al-Baqarah (2:124–141)</a>
+          <div class="verse-content" id="baqarah">
+            <ol>
+              <li>
+                <strong>Pagpili kay Ibrahim (2:124–125)</strong><br>
+                Sinabi ng Allah: “Ako ay nagbigay kay Ibrahim ng karangalan at patnubay. Siya ay magiging huwaran ng matuwid na pananampalataya.”<br>
+                <em>Aral:</em> Ang pagiging tapat at matuwid ay nagdudulot ng karangalan sa Allah.
+              </li>
+              <li>
+                <strong>Pagtatatag ng Baitul Ma’mur at Kaaba (2:126–127)</strong><br>
+                Inutusan ng Allah si Ibrahim at Ismail na itayo ang Kaaba bilang sentro ng pagsamba.<br>
+                <em>Aral:</em> Ang pagtitiwala at pagsunod sa Allah ay nagdudulot ng banal na misyon at inspirasyon sa iba.
+              </li>
+              <li>
+                <strong>Pagpapalawak ng Pananampalataya (2:128–141)</strong><br>
+                Nagdasal si Ibrahim at Ismail para sa kanilang mga anak at sa lahat ng sumusunod sa tamang landas.<br>
+                <em>Aral:</em> Pananampalataya sa Allah ay dapat ipasa sa susunod na henerasyon; pagtuturo ng tama ay responsibilidad ng propeta.
+              </li>
+            </ol>
+          </div>
+        </li>
+
+        <li>
+          <a href="#" class="verse-link" data-verse="ibrahim">Surah Ibrahim (14:35–41)</a>
+          <div class="verse-content" id="ibrahim">
+            <ol>
+              <li>
+                <strong>Pagdarasal ni Ibrahim (14:35–37)</strong><br>
+                “O Allah, gawin mo ang aking lahi na mapagpakumbaba at maglingkod sa Iyo.”<br>
+                <em>Aral:</em> Ang propeta ay huwaran sa pananalangin at pagpapakumbaba, at humihingi ng gabay para sa kabutihan ng iba.
+              </li>
+              <li>
+                <strong>Pagpapahayag ng Katapatan (14:38–41)</strong><br>
+                Ipinakita ni Ibrahim ang walang hanggang katapatan sa Allah.<br>
+                <em>Aral:</em> Ang pagtitiwala sa Allah at katapatan sa Kanya ay nagbibigay ng lakas sa gitna ng pagsubok.
+              </li>
+            </ol>
+          </div>
+        </li>
+
+        <li>
+          <a href="#" class="verse-link" data-verse="as-saffat">Surah As-Saffat (37:83–113)</a>
+          <div class="verse-content" id="as-saffat">
+            <ol>
+              <li>
+                <strong>Pagsubok at Pagsunod ni Ibrahim (37:83–107)</strong><br>
+                Inutusan si Ibrahim na ihanda ang kanyang anak bilang pagsunod sa utos ng Allah.<br>
+                Sa huli, pinalitan ng Allah ang anak ng isang hayop bilang kapalit at ipinakita ang Kanyang awa.<br>
+                <em>Aral:</em> Pagtitiwala at pagsunod sa Allah sa kabila ng pinakamahirap na pagsubok ay nagdudulot ng gantimpala at pagpapala.
+              </li>
+              <li>
+                <strong>Pagpapalaganap ng Pananampalataya (37:108–113)</strong><br>
+                Nanawagan si Ibrahim sa kanyang mga tao na sumamba lamang sa Allah.<br>
+                <em>Aral:</em> Pagtuturo ng iisang pananampalataya at halimbawa ng pagtitiwala sa Allah ay mahalaga sa bawat tao.
+              </li>
+            </ol>
+          </div>
+        </li>
       </ul>
     </section>
   </main>
@@ -62,5 +139,23 @@
   </footer>
 
   <script src="../script.js"></script>
+  <script>
+    const verseLinks = document.querySelectorAll('.verse-link');
+
+    verseLinks.forEach(link => {
+      link.addEventListener('click', function(e){
+        e.preventDefault();
+        const verseId = this.getAttribute('data-verse');
+        const contentDiv = document.getElementById(verseId);
+
+        // Toggle visibility
+        if(contentDiv.style.display === 'block'){
+          contentDiv.style.display = 'none';
+        } else {
+          contentDiv.style.display = 'block';
+        }
+      });
+    });
+  </script>
 </body>
 </html>
