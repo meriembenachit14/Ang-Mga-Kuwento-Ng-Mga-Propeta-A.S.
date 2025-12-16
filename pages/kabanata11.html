@@ -5,6 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kabanata 11 – Propeta Yusuf (A.S.)</title>
   <link rel="stylesheet" href="../style.css">
+  <style>
+    .verse-content {
+      display: none;
+      background: #fff0f5;
+      padding: 1rem;
+      margin: 0.5rem 0;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .verse-link {
+      cursor: pointer;
+      color: #ff1493;
+      text-decoration: underline;
+    }
+
+    .verse-link:hover {
+      color: #ff69b4;
+    }
+
+    section h2 {
+      margin-top: 1.5rem;
+      font-size: 1.5rem;
+      color: #ff1493;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -15,12 +41,12 @@
 
   <main>
     <section>
-      <h2>🌱 Sino si Propeta Yusuf (A.S.)</h2>
+      <h2>❥ Sino si Propeta Yusuf (A.S.)</h2>
       <p>Si Propeta Yusuf (A.S.), kilala rin bilang Joseph, ay anak ni Propeta Yaqub (A.S.) at apo ni Propeta Ishaq (A.S.). Ipinanganak siya sa Canaan, tinatayang mga 1745 BCE. Siya ay kilala sa kanyang pambihirang kagandahang-loob, kabanalan, at kakayahang manghula sa panaginip, na ginamit ng Allah upang iligtas ang Egypt mula sa gutom at sakuna. Siya rin ay simbolo ng kabutihan, pagtitiis, at kapatawaran.</p>
     </section>
 
     <section>
-      <h2>✨ Pamilya at Pinagmulan</h2>
+      <h2>❥ Pamilya at Pinagmulan</h2>
       <ul>
         <li>Ama: Propeta Yaqub (A.S.)</li>
         <li>Ina: Rachel</li>
@@ -30,9 +56,9 @@
     </section>
 
     <section>
-      <h2>🛠️ Mga Notable Events at Pangyayari</h2>
+      <h2>❥ Mga Notable Events at Pangyayari</h2>
       <ul>
-        <li>Binenta siya ng kanyang mga kapatid sa mga mangangalakal at dinala sa Egypt, dahil sa inggit sa pagmamahal ng kanilang ama kay Yusuf (A.S.).</li>
+        <li>Binenta siya ng kanyang mga kapatid sa mga mangangalakal at dinala sa Egypt dahil sa inggit sa pagmamahal ng kanilang ama kay Yusuf (A.S.).</li>
         <li>Napabilang sa tahanan ni Potiphar at dumanas ng pagsubok sa tukso ng asawa ng may-ari, ngunit nanatiling matuwid at tapat sa Allah.</li>
         <li>Ipinakulong siya sa Egypt ngunit ginamitan ng Allah ang kanyang kakayahang manghula sa panaginip upang iligtas ang bayan mula sa labis na taggutom.</li>
         <li>Naging tagapamahala ng kayamanan ng Egypt at naging pangunahing tagapangalaga sa panahon ng gutom, pinamunuan ang pag-iimbak ng pagkain.</li>
@@ -41,18 +67,18 @@
     </section>
 
     <section>
-      <h2>🕊️ Mga Quotes at Aral</h2>
+      <h2>❥ Mga Quotes at Aral</h2>
       <ul>
-        <li>"Ang pasensya sa gitna ng pagsubok ay susi sa tagumpay."</li>
-        <li>"Walang masama sa pananabik sa katarungan, ngunit ang kapatawaran ay mas dakila."</li>
-        <li>❖ Pagtitiis sa mga pagsubok at tukso</li>
-        <li>❖ Kapatawaran sa kabila ng inggit at panlilinlang ng kapwa</li>
-        <li>❖ Pananalig sa Allah sa kabila ng mga kahirapan</li>
+        <li>o Ang pasensya sa gitna ng pagsubok ay susi sa tagumpay.</li>
+        <li>o Walang masama sa pananabik sa katarungan, ngunit ang kapatawaran ay mas dakila.</li>
+        <li>o Pagtitiis sa mga pagsubok at tukso.</li>
+        <li>o Kapatawaran sa kabila ng inggit at panlilinlang ng kapwa.</li>
+        <li>o Pananalig sa Allah sa kabila ng mga kahirapan.</li>
       </ul>
     </section>
 
     <section>
-      <h2>📖 Sanggunian sa Qur’an</h2>
+      <h2>❥ Sanggunian sa Qur’an</h2>
       <ul>
         <li>Surah Yusuf (12:4–101)</li>
         <li>Surah Al-An’am (6:84–86)</li>
@@ -65,6 +91,18 @@
     <p>&copy; 2025 Mga Kuwento ng mga Propeta (A.S.)</p>
   </footer>
 
-  <script src="../script.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const verseLinks = document.querySelectorAll('.verse-link');
+      verseLinks.forEach(link => {
+        link.addEventListener('click', function(e){
+          e.preventDefault();
+          const verseId = this.getAttribute('data-verse');
+          const contentDiv = document.getElementById(verseId);
+          if(contentDiv) contentDiv.style.display = contentDiv.style.display === 'block' ? 'none' : 'block';
+        });
+      });
+    });
+  </script>
 </body>
 </html>
