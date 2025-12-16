@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kabanata 5 – Propeta Salih (A.S.)</title>
   <link rel="stylesheet" href="../style.css">
+
   <style>
-    /* Verse toggle styles */
+    /* Verse toggle styles — SAME AS KABANATA 1 */
     .verse-content {
       display: none;
       background: #fff0f5;
@@ -27,6 +28,7 @@
     }
   </style>
 </head>
+
 <body>
   <header>
     <h1>Kabanata 5 – Propeta Salih (A.S.)</h1>
@@ -155,14 +157,15 @@
   </footer>
 
   <script>
-    // Verse toggle
+    // Verse toggle — SAME AS KABANATA 1
     const verseLinks = document.querySelectorAll('.verse-link');
     verseLinks.forEach(link => {
       link.addEventListener('click', function(e){
         e.preventDefault();
         const verseId = this.getAttribute('data-verse');
         const contentDiv = document.getElementById(verseId);
-        contentDiv.style.display = contentDiv.style.display === 'block' ? 'none' : 'block';
+        contentDiv.style.display =
+          contentDiv.style.display === 'block' ? 'none' : 'block';
       });
     });
 
