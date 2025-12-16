@@ -5,22 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kabanata 3 – Propeta Nuh (A.S.)</title>
   <link rel="stylesheet" href="../style.css">
+
   <style>
-    /* Verse content box styling */
+    /* Verse toggle styles — SAME AS KABANATA 1 */
     .verse-content {
       display: none;
-      background-color: #fff0f5;
-      padding: 15px;
-      margin-top: 10px;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      background: #fff0f5;
+      padding: 1rem;
+      margin: 0.5rem 0;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     }
-    .dark-mode .verse-content {
-      background-color: #3b2c36;
-      color: #f0e6f6;
+
+    .verse-link {
+      cursor: pointer;
+      color: #ff1493;
+      text-decoration: underline;
+    }
+
+    .verse-link:hover {
+      color: #ff69b4;
     }
   </style>
 </head>
+
 <body>
   <header>
     <h1>Kabanata 3 – Propeta Nuh (A.S.)</h1>
@@ -77,10 +85,10 @@
           <div class="verse-content" id="hud">
             <p>➙ Kuwento ni Propeta Nuh (A.S.) mula sa Surah Hud 11:25–48</p>
             <ul>
-              <li>➙ Pagpapadala kay Nuh (11:25–28): Sinabi ng Allah kay Nuh na ipaalam sa kanyang mga tao ang tama at iwan ang kasamaan. Marami ang tumanggi. Aral: Kahit maraming tumanggi, ang pagtuturo ng tama ay dapat ipagpatuloy. Pagtitiis at pagtitiwala sa Allah ay mahalaga.</li>
-              <li>➙ Paulit-ulit na Babala (11:29–32): Nagsabi si Nuh sa kanyang mga tao na sumampalataya bago dumating ang parusa. Aral: Ang pagtanggi sa aral ng Diyos ay may kaparusahan, ngunit ang pananalig at patuloy na pagtuturo ng tama ay mahalaga.</li>
-              <li>➙ Utos na Gumawa ng Barko (11:33–36): Inutusan ng Allah si Nuh na gumawa ng barko at dalhin dito ang mga naniniwala. Aral: Pagsunod sa Allah ay nagdudulot ng kaligtasan. Ang gabay at utos ng Allah ay dapat sundin.</li>
-              <li>➙ Malakas na Baha at Kaligtasan (11:37–48): Dumating ang baha bilang parusa sa mga hindi naniniwala. Ang barko ay nagligtas sa mga naniniwala. Aral: Ang buhay sa lupa ay isang pagsubok at pagkakataon. Pananalig at pagtitiwala sa Allah ay nagdudulot ng kaligtasan at bagong simula.</li>
+              <li>➙ Pagpapadala kay Nuh (11:25–28): Sinabi ng Allah kay Nuh na ipaalam sa kanyang mga tao ang tama at iwan ang kasamaan.</li>
+              <li>➙ Paulit-ulit na Babala (11:29–32)</li>
+              <li>➙ Utos na Gumawa ng Barko (11:33–36)</li>
+              <li>➙ Malakas na Baha at Kaligtasan (11:37–48)</li>
             </ul>
           </div>
         </li>
@@ -89,9 +97,6 @@
           <a href="#" class="verse-link" data-verse="al-muminun">Surah Al-Mu’minun (23:23–30)</a>
           <div class="verse-content" id="al-muminun">
             <p>➙ Kuwento ni Propeta Nuh (A.S.) mula sa Surah Al-Mu’minun 23:23–30</p>
-            <ul>
-              <li>➙ Paulit-ulit nagbabala si Nuh sa kanyang mga tao bago dumating ang parusa. Aral: Pagtuturo ng tama at pagtitiis ay mahalaga, pagsunod sa Allah ay nagdadulot ng kaligtasan, at buhay sa lupa ay pagsubok.</li>
-            </ul>
           </div>
         </li>
 
@@ -99,9 +104,6 @@
           <a href="#" class="verse-link" data-verse="nuh">Surah Nuh (71:1–28)</a>
           <div class="verse-content" id="nuh">
             <p>➙ Kuwento ni Propeta Nuh (A.S.) mula sa Surah Nuh 71:1–28</p>
-            <ul>
-              <li>➙ Inutusan ng Allah si Nuh na ipaalam sa kanyang mga tao na sumamba sa iisang Allah at iwanan ang diyus-diyosan. Marami ang tumanggi. Aral: Pagtitiwala at pasasalamat sa Allah, pagsunod sa Kanya, at buhay sa lupa ay pagkakataon para sa bagong simula.</li>
-            </ul>
           </div>
         </li>
       </ul>
@@ -113,21 +115,22 @@
   </footer>
 
   <script>
-    // Dark/Light mode toggle
-    const toggleBtn = document.getElementById('toggle-theme');
-    toggleBtn.addEventListener('click', () => {
-      document.body.classList.toggle('dark-mode');
-    });
-
-    // Verse toggle
+    // Verse toggle — SAME ORDER AS KABANATA 1
     const verseLinks = document.querySelectorAll('.verse-link');
     verseLinks.forEach(link => {
       link.addEventListener('click', function(e){
         e.preventDefault();
         const verseId = this.getAttribute('data-verse');
         const contentDiv = document.getElementById(verseId);
-        contentDiv.style.display = contentDiv.style.display === 'block' ? 'none' : 'block';
+        contentDiv.style.display =
+          contentDiv.style.display === 'block' ? 'none' : 'block';
       });
+    });
+
+    // Dark/Light mode toggle
+    const toggleThemeBtn = document.getElementById('toggle-theme');
+    toggleThemeBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
     });
   </script>
 </body>
