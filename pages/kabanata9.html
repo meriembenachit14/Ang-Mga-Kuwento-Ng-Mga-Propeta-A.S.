@@ -5,7 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kabanata 9 – Propeta Ishaq (A.S.)</title>
   <link rel="stylesheet" href="../style.css">
+
+  <style>
+    /* Verse toggle styles — SAME AS KABANATA 1 */
+    .verse-content {
+      display: none;
+      background: #fff0f5;
+      padding: 1rem;
+      margin: 0.5rem 0;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .verse-link {
+      cursor: pointer;
+      color: #ff1493;
+      text-decoration: underline;
+    }
+
+    .verse-link:hover {
+      color: #ff69b4;
+    }
+  </style>
 </head>
+
 <body>
   <header>
     <h1>Kabanata 9 – Propeta Ishaq (A.S.)</h1>
@@ -55,9 +78,44 @@
     <section>
       <h2>📖 Sanggunian sa Qur’an</h2>
       <ul>
-        <li>Surah Al-Baqarah (2:124–140)</li>
-        <li>Surah Hud (11:71–73)</li>
-        <li>Surah As-Saffat (37:112–113)</li>
+        <li>
+          <a href="#" class="verse-link" data-verse="baqarah">Surah Al-Baqarah (2:124–140)</a>
+          <div class="verse-content" id="baqarah">
+            <p><strong>Pagsubok at Pagpili kay Ibrahim (2:124)</strong></p>
+            <p>Sinabi ng Allah: “Ikaw ay Aking gagawing pinuno at huwaran ng sangkatauhan.”</p>
+            <p>Sinubok si Ibrahim sa maraming pagsubok, at matagumpay niyang tinupad ang lahat.</p>
+            <p><em>Aral:</em> Ang tunay na pamumuno ay nagmumula sa pagsunod at pagtitiis sa mga pagsubok ng Allah.</p>
+
+            <p><strong>Tipan at Panalangin para sa Kanyang Lahi (2:125–129)</strong></p>
+            <p>Inutusan si Ibrahim at Ismail na linisin ang Kaaba bilang lugar ng pagsamba.</p>
+            <p>“O aming Panginoon, gawin Mo kaming masunurin sa Iyo at ang aming lahi ay maging masunurin din.”</p>
+            <p><em>Aral:</em> Ang pananampalataya ay hindi lamang para sa sarili kundi ipinagdarasal para sa susunod na henerasyon.</p>
+
+            <p><strong>Panawagan sa Iisang Pananampalataya (2:130–140)</strong></p>
+            <p>Ipinahayag na si Ibrahim ay hindi Hudyo o Kristiyano kundi Muslim – ganap na sumuko sa Allah.</p>
+            <p><em>Aral:</em> Ang tunay na relihiyon ay ang pagsuko sa Allah, hindi pangalan o lahi.</p>
+          </div>
+        </li>
+
+        <li>
+          <a href="#" class="verse-link" data-verse="hud">Surah Hud (11:71–73)</a>
+          <div class="verse-content" id="hud">
+            <p>Dumating ang mga anghel kay Ibrahim at sa kanyang asawa.</p>
+            <p>Ibinigay ang balita ng pagsilang ni Isaac (Ishaq) at ng apo na si Jacob (Ya‘qub).</p>
+            <p><em>Aral:</em> Walang imposible sa Allah; ang Kanyang pangako ay dumarating sa tamang panahon.</p>
+            <p>“Ang awa at pagpapala ng Allah ay nasa inyo, O pamilya ni Ibrahim.”</p>
+          </div>
+        </li>
+
+        <li>
+          <a href="#" class="verse-link" data-verse="saffat">Surah As-Saffat (37:112–113)</a>
+          <div class="verse-content" id="saffat">
+            <p>Ipinahayag ng Allah ang pagkakaloob kay Isaac, isang propetang kabilang sa mga matuwid.</p>
+            <p><em>Aral:</em> Ang anak ay biyaya at responsibilidad mula sa Allah.</p>
+            <p>Pinagpala ng Allah si Ibrahim at ang kanyang mga anak.</p>
+            <p><em>Aral:</em> Ang gabay ay mula sa Allah, ngunit ang pagpili ay nasa bawat tao.</p>
+          </div>
+        </li>
       </ul>
     </section>
   </main>
@@ -66,6 +124,24 @@
     <p>&copy; 2025 Mga Kuwento ng mga Propeta (A.S.)</p>
   </footer>
 
-  <script src="../script.js"></script>
+  <script>
+    // Verse toggle — SAME AS KABANATA 1
+    const verseLinks = document.querySelectorAll('.verse-link');
+    verseLinks.forEach(link => {
+      link.addEventListener('click', function(e){
+        e.preventDefault();
+        const verseId = this.getAttribute('data-verse');
+        const contentDiv = document.getElementById(verseId);
+        contentDiv.style.display =
+          contentDiv.style.display === 'block' ? 'none' : 'block';
+      });
+    });
+
+    // Dark/Light mode toggle — SAME AS KABANATA 1
+    const toggleBtn = document.getElementById('toggle-theme');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
+  </script>
 </body>
 </html>
