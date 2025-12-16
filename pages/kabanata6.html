@@ -5,10 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kabanata 6 – Propeta Ibrahim (A.S.)</title>
   <link rel="stylesheet" href="../style.css">
+
   <style>
+    /* Verse toggle styles — SAME AS KABANATA 1 */
     .verse-content {
       display: none;
-      background: #fff0f5; /* Pink tulad ng kabanata 7 */
+      background: #fff0f5;
       padding: 1rem;
       margin: 0.5rem 0;
       border-radius: 12px;
@@ -17,21 +19,16 @@
 
     .verse-link {
       cursor: pointer;
-      color: #ff1493; /* Pink tulad ng kabanata 7 */
+      color: #ff1493;
       text-decoration: underline;
     }
 
     .verse-link:hover {
-      color: #ff69b4; /* Hover pink tulad ng kabanata 7 */
-    }
-
-    section h2 {
-      margin-top: 1.5rem;
-      font-size: 1.5rem;
-      color: #ff1493; /* Opsyonal, heading pink */
+      color: #ff69b4;
     }
   </style>
 </head>
+
 <body>
   <header>
     <h1>Kabanata 6 – Propeta Ibrahim (A.S.)</h1>
@@ -86,6 +83,7 @@
             </ol>
           </div>
         </li>
+
         <li>
           <a href="#" class="verse-link" data-verse="ibrahim">Surah Ibrahim (14:35–41)</a>
           <div class="verse-content" id="ibrahim">
@@ -95,6 +93,7 @@
             </ol>
           </div>
         </li>
+
         <li>
           <a href="#" class="verse-link" data-verse="as-saffat">Surah As-Saffat (37:83–113)</a>
           <div class="verse-content" id="as-saffat">
@@ -113,16 +112,22 @@
   </footer>
 
   <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      const verseLinks = document.querySelectorAll('.verse-link');
-      verseLinks.forEach(link => {
-        link.addEventListener('click', function(e){
-          e.preventDefault();
-          const verseId = this.getAttribute('data-verse');
-          const contentDiv = document.getElementById(verseId);
-          if(contentDiv) contentDiv.style.display = contentDiv.style.display === 'block' ? 'none' : 'block';
-        });
+    // Verse toggle — SAME AS KABANATA 1
+    const verseLinks = document.querySelectorAll('.verse-link');
+    verseLinks.forEach(link => {
+      link.addEventListener('click', function(e){
+        e.preventDefault();
+        const verseId = this.getAttribute('data-verse');
+        const contentDiv = document.getElementById(verseId);
+        contentDiv.style.display =
+          contentDiv.style.display === 'block' ? 'none' : 'block';
       });
+    });
+
+    // Dark/Light mode toggle — SAME AS KABANATA 1
+    const toggleBtn = document.getElementById('toggle-theme');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
     });
   </script>
 </body>
